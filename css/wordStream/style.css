@@ -1,0 +1,353 @@
+#wrapper{
+	width: 970px;
+	font-family: "helvetica neue", "sans-serif";
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#headerLeft{
+	display: inline-block;
+	padding: 30px 0 0 10px;
+}
+
+#headerLeft img{
+	display: inline-block;
+	width: 62px;
+}
+
+#headerLeft h1 {
+    display: inline-block;
+    margin: 6px 0 0 0;
+    vertical-align: top;
+    font-weight: 500;
+    font-size: 34px;
+    letter-spacing: 3px;
+}
+
+h1#word {
+    margin-left: 7px;
+    color: #7f7f81;
+}
+
+h1#stream {
+    color: #067eb3;
+}
+
+#headerRight{
+	width: 651px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#headerRight ul{
+	display: inline-block;
+	list-style-type: none;
+	font-size: 12px;
+	border: 1px solid #dbdbdb;
+	border-top: 0;
+	padding: 0 10px 10px 10px;
+	border-radius: 5px;
+    position: relative;
+    margin: 0px 0 0 215px;
+    top: -2px;
+    background-color: #f8f8f8;
+}
+
+#headerRight li {
+    display: inline-block;
+    border-right: 1px solid #9a9a9a;
+    padding: 0 8px;
+    margin-top: 6px;
+}
+
+#headerRight li:last-child {
+    border-right: none;
+}
+
+#headerRight ul li a {
+    color: #9a9a9a;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+#login {
+    text-decoration: none;
+    font-size: 10px;
+    padding: 5px 14px;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(#36c3f0,#0280bd);/* Standard syntax */
+	background: #0280bd; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#36c3f0,#0280bd); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#36c3f0,#0280bd); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#36c3f0,#0280bd); /* For Firefox 3.6 to 15 */
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+h1#banner {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 5px 0 0;
+    background: linear-gradient(#2f6c8b 0%,#007dbd 20%, #007dbd 80%, #2f6c8b 100%);/* Standard syntax */
+	background: #007dbd; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2f6c8b 0%,#007dbd 20%, #007dbd 80%, #2f6c8b 100%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2f6c8b 0%,#007dbd 20%, #007dbd 80%, #2f6c8b 100%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2f6c8b 0%,#007dbd 20%, #007dbd 80%, #2f6c8b 100%); /* For Firefox 3.6 to 15 */
+    color: white;
+    height: 38px;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+#breadCrumb{
+	background: linear-gradient(#e8e8e8 0%,#fff 60%);/* Standard syntax */
+	background: #e8e8e8; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e8e8e8 0%,#fff 60%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e8e8e8 0%,#fff 60%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e8e8e8 0%,#fff 60%); /* For Firefox 3.6 to 15 */
+}
+
+#blank{
+	display: inline-block;
+	width: 275px;
+}
+
+#breadCrumbRight {
+    display: inline-block;
+    width: 690px;
+}
+
+#trail {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+#trail a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #21b1f0;
+    vertical-align: top;
+    margin-top: 4px;
+    margin-left: 6px;
+    display: inline-block;
+}
+
+a#homeButton{
+	margin:0;
+}
+
+#phone {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+#phone img {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#numbers {
+    display: inline-block;
+}
+
+#numbers p {
+    margin: 0;
+    color: #666;
+    font-size: 11px;
+    letter-spacing: .5px;
+}
+
+#numbers h2 {
+    margin: 3px 0;
+    color: #21b1f0;
+    letter-spacing: 1px;
+}
+
+#adSpace{
+	display: inline-block;
+	width: 240px;
+	margin-right: 25px;
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+#adSpace h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2070af;
+    letter-spacing: .5px;
+}
+
+#adSpace h3 {
+    color: #f53600;
+    font-size: 13px;
+}
+
+#adSpace p {
+    font-size: 12px;
+}
+
+#adSpace p a {
+    color: #2070af;
+    text-decoration: none;
+}
+
+a#adButton1 {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(#20a0dd,#037dc0);/* Standard syntax */
+	background: #037dc0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#20a0dd,#037dc0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#20a0dd,#037dc0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#20a0dd,#037dc0); /* For Firefox 3.6 to 15 */
+    color: white;
+    font-weight: 600;
+    letter-spacing: .5px;
+    height: 25px;
+    border-radius: 7px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+
+a#adButton2 {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(#ffa243,#e74403);/* Standard syntax */
+	background: #e74403; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffa243,#e74403); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffa243,#e74403); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffa243,#e74403); /* For Firefox 3.6 to 15 */
+    color: white;
+    font-weight: 600;
+    letter-spacing: .5px;
+    height: 25px;
+    border-radius: 7px;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+p#credit {
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 11px;
+}
+
+#ad{
+	background-image: url("img/left_content_ad.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 292px;
+}
+
+#ad h2 {
+    padding: 13px 15px 10px;
+}
+
+#ad p {
+    padding: 5px 30px 15px 15px;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+}
+
+#ad a {
+    display: block;
+    text-align: center;
+}
+
+#mainContent {
+    display: inline-block;
+    width: 675px;
+    border-top: 1px solid #aaa;
+    margin-top: 15px;
+}
+
+#mainContent h2 {
+    font-size: 18px;
+    color: #2070af;
+    margin-top: 5px;
+}
+
+#mainContent p {
+    font-size: 12px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#mainContent a {
+    color: #2070af;
+}
+
+#mainContent ul {
+    padding-left: 18px;
+    list-style-type: square;
+    color: #2070af;
+    margin: 0 0 25px;
+}
+
+#mainContent ul li p {
+    margin: 0;
+}
+
+#callToAction {
+    border: 5px solid #80bdda;
+    margin-right: 41px;
+}
+
+#callToAction img {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+div#callLeft {
+    display: inline-block;
+    width: 550px;
+}
+
+#callLeft h2 {
+    margin-bottom: 0;
+}
+
+#callLeft p {
+    margin: 3px 0 0;
+    padding-left: 4px;
+    line-height: 1.25em;
+}
+
+#callLeft a {
+    text-align: center;
+    width: 171px;
+    display: inline-block;
+    height: 25px;
+    padding-top:5px;
+    margin-top: 10px;
+    border: 2px solid #598635;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 4px;
+    background: linear-gradient(#c4df80 0%,#8eaf3a 40%, #8eaf3a 60%, #c4df80 100%);/* Standard syntax */
+	background: #c4df80; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#c4df80 0%,#8eaf3a 40%, #8eaf3a 60%, #c4df80 100%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#c4df80 0%,#8eaf3a 40%, #8eaf3a 60%, #c4df80 100%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#c4df80 0%,#8eaf3a 40%, #8eaf3a 60%, #c4df80 100%); /* For Firefox 3.6 to 15 */
+}
+
+#mainContent h3 {
+    font-size: 14px;
+    color: #2070af;
+}
+
+
+
+

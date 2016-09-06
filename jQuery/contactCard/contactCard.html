@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Card</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script>
+		var data = []
+		$(document).on('click', 'button',function(){
+			data = ($('form').serializeArray());
+			console.log(data[1].value);
+			$('#right h2').append('<div class="cards"><h3>First Name: </h3><p>'+data[0].value+'</p><h3>Last Name: </h3><p>'+data[1].value+'</p><h3>Description: </h3><p>'+data[2].value+'</p></div>');
+			console.log(data)
+		});
+
+
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Contact Card</h1>
+			<p>Input data and click the button to add a new contact.</p>
+		</header>
+		<div id="mainContent">
+			<div id="left">
+				<form>
+					<p>First Name: </p><input type="text" name="fname"><p>Last Name: </p><input type="text" name="lname"><p>Description: </p><input type="text" name="descrip">
+				</form>
+				<button>Add</button>
+			</div>
+			<div id="right">
+				<h2>Cards</h2>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+#wrapper{
+	width: 970px;
+}
+
+header{
+	text-align: center;
+}
+
+#left{
+	width: 300px;
+	text-align: right;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+form{
+	display: block;
+	width: 300px;
+}
+
+form p{
+	display: inline-block;
+	margin-right:10px;
+}
+
+form input{
+	display: inline-block;
+}
+
+button{
+	margin-top: 25px;
+}
+
+#right{
+	width: 500px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.cards{
+	border: 2px solid black;
+	display: block;
+	margin-top: 15px;
+}
+
+.cards h3{
+	font-size: 18px;
+	display: inline-block;
+	width:150px;
+	margin-left: 15px;
+}
+
+.cards p{
+	font-size: 12px;
+	display: inline-block;
+	width: 300px;
+}
+

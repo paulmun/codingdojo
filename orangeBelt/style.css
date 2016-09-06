@@ -1,0 +1,112 @@
+#wrapper{
+	width: 970px;
+	margin: 0 auto;
+}
+
+	#header{
+		width: 100%;
+		display: block;
+	}
+
+	#navi{
+		background-color: #000;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+		.stack{
+			height: 95px;
+			width: 95px;
+			background-color: #fff;
+			border-radius: 25px;
+			display: inline-block;
+			margin: 5px 15px;
+			vertical-align: top;
+		}
+
+			.stack p{
+				margin-top: 30px;
+				font-weight: 600;
+			}
+
+	#addYourOwn{
+		background-color: grey;
+		padding-bottom: 15px;
+		padding-top: 30px;
+	}
+
+		#addYourOwn h2{
+			margin: 0 0 15px 15px;
+			font-size: 20px;
+		}
+
+		#addYourOwn input[type="text"] {
+		    margin-left: 15px;
+		    height: 17px;
+		    width: 175px;
+		}
+
+		#addYourOwn input[type="submit"] {
+		    background-color: lightgrey;
+		    font-size: 12px;
+		}
+	#textLeft {
+	    display: inline-block;
+	    width: 483px;
+	    background-color: #e6e6e6;
+	    vertical-align: top;
+	}
+			#textLeft p {
+		    width: 355px;
+		    background-color: #c8c8f0;
+		    margin: 30px auto;
+		    padding: 7px;
+		    height: 140px;
+		}
+
+		.border{
+			border: 2px solid blue;
+		}
+#textRight {
+    width: 483px;
+    display: inline-block;
+    background-color: #f0f0f0;
+    height: 398px;
+}
+	#textRight p {
+	    margin: 0;
+	    padding: 10px;
+	}
+
+#comments {
+    display: block;
+    border: 1px solid black;
+    padding: 35px 20px;
+    height: 300px;
+}
+
+	#comments h1 {
+    	font-size: 24px;
+    	margin: 0 0 15px 0;
+	}
+
+	#comments input[type="text"] {
+	    width: 750px;
+	    height: 20px;
+	}
+
+	#comments input[type="submit"] {
+	    width: 168px;
+	    background-color: lightgrey;
+	    height: 25px;
+	}
+	
+	#commentList {
+	    overflow: scroll;
+	    height: 240px;
+	}
+
+
+
+

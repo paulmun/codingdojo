@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Functions</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#addClass').click(function(){
+				$('#addClass').siblings('p').addClass('red');
+			});
+			$('#slideToggle').click(function(){
+				$('img').slideToggle();
+			});
+			$('#append').click(function(){
+				$('#append').siblings('p').append("<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>");
+			})
+			$('#slideDown').click(function(){
+				$('.multiButton').siblings('span').slideDown();
+				$('#slideDown').fadeOut();
+				$('#slideUp').fadeIn();
+			});
+			$('#slideUp').click(function(){
+				$('.multiButton').siblings('span').slideUp();
+				$('#slideUp').fadeOut();
+				$('#slideDown').fadeIn();
+			});
+			$('#toggle').click(function(){
+				$('.multiButton').siblings('span').toggle();
+			});
+			$('input').focus(function(){
+				$('#focus').hide();
+				var str = $('#focus').text();
+				$('#result').html(str);
+			})
+			$('.demo').before('<img src="img/reddit.jpg" alt="dickbutt">');
+			$('.demo').after('<img src="img/reddit.jpg" alt="dickbutt">');
+			
+
+			
+		});
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+		<h1>jQuery Demo</h1>
+		<div class="demo">
+				<h2>AddClass</h2>
+				<a class="clicker" id="addClass">AddClass</a>
+				<p>Click the button to add class 'red' to this paragraph</p>
+		</div>	
+		<div class="demo">
+				<h2>SlideToggle</h2>
+				<a class="clicker" id="slideToggle">Slidetoggle</a>
+				<p>Click the button to slidetoggle a hidden image</p>
+				<img src="img/reddit.jpg" alt="dickbutt">
+		</div>	
+		<div class="demo">
+				<h2>Append</h2>
+				<a class="clicker" id="append">Append</a>
+				<p>Click the button to append a new paragraph.</p>
+		</div>	
+		<div class="demo">
+				<h2>Slide,Fade and Toggle</h2>
+				<div class="multiButton">
+					<a class="clicker" id="slideUp">Slide Up</a>
+					<a class="clicker" id="slideDown">Slide Down</a>
+					<a class="clicker" id="toggle">Toggle</a>
+				</div>
+				<span></span>
+				<p>Click the buttons to hide the box sliding up and bring it back sliding down.</p>
+		</div>
+		<div class="demo">
+				<h2>Focus, html, and Text</h2>
+				<p><input type="text"><span id="focus">focus hi</span></p>
+				<p>Type into the box and see what happens</p>
+				<h2 id="result"></h2>
+		</div>		
+	</div>
+</body>
+</html>

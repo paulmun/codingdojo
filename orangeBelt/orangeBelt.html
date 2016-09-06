@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Orange Belt Exam</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/orange.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<img id="header" src="img/header.png" alt="Header">
+		<div id="navi">
+			<img class="stack" id="lamp" type="1" src="img/lamp.png" alt="Lamp">
+			<img class="stack" id="mean" type="1" src="img/mean.png" alt="Mean">
+			<img class="stack" id="python" type="1" src="img/python-django.png" alt="Python">
+			<img class="stack" id="ror" type="1" src="img/ror.png" alt="RoR">
+			<img class="stack" id="swift" type="2" src="img/ios-swift.png" alt="Swift">
+		</div>
+		<div id="addYourOwn">
+			<h2>Add your own tiles with just text:</h2>
+			<form>
+				<input type="text" id="stackName">
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+		<div id="text">
+			<div id="textLeft">
+				<p id="scripting">
+					A <mark>scripting or script language</mark> is a programming language that supports scripts, programs written for a special run-time environment that automate the execution of tasks that could alternatively be executed one-by-one by a human operator. Scripting languages are often interpreted (rather than compiled).
+				</p>
+				<p id="compiled">
+					A <mark>compiled language</mark> is a programming language whose implementations are typically compilers (translators that generate machine code from source code), and not interpreters (step-by-step executors of source code, where no pre-runtime translation takes place). The term is somewhat vague.
+				</p>
+			</div>
+			<div id="textRight">
+			</div>
+		</div>
+		<div id="comments">
+			<h1>Insert a comment:</h1>
+			<form>
+			<input type="text" id="commentContent" name="comment">
+			<input type="submit" value="Comment">
+			<div id="commentList"></div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

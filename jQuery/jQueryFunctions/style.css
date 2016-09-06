@@ -1,0 +1,75 @@
+*{
+	font-family:"helvetica neue", "sans-serif";
+}
+
+#wrapper{
+	width:900px;
+}
+
+	h1{
+		text-align: center;
+	}
+	
+	.demo{
+		 border-top: 1px solid black;
+		 padding-bottom: 30px;
+		 height:200px;
+	}
+
+		.demo h2{
+			text-align: center;
+		}
+
+		.clicker{
+			width: 150px;
+			display: inline-block;
+			text-align: center;
+			margin: 10px 60px 10px 10px;
+			text-transform: uppercase;
+			background-color: lightgreen;
+			color: #fff;
+			height: 25px;
+			padding-top: 5px;
+			letter-spacing: 1px;
+			vertical-align: top;
+		}
+		
+		.demo p{
+			width:500px;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.red {
+			color: crimson;
+		}
+
+		img{
+			width: 40px;
+			opacity: .1;
+			display:none;
+		}
+
+		.demo span{
+			width: 0;
+			height: 0;
+			border: 15px solid black;
+			display:inline-block;
+			margin:40px;
+		}
+
+		.multiButton{
+			width: 150px;
+			display: inline-block;
+			text-align: center;
+			vertical-align: top;
+			margin: 10px 60px 10px 10px;
+		}
+
+		#slideUp, #slideDown, #toggle{
+			display: block;
+		}
+
+		#focus{
+			border: 0;
+		}

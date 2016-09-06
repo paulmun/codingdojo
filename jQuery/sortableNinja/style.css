@@ -1,0 +1,9 @@
+img{
+	float:left;
+	display: block;
+}
+
+#sortable{
+	width: 368px;
+	overflow: hidden;
+}

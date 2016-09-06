@@ -1,0 +1,193 @@
+#container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 970px;
+	font-family: "helvetica neue", "sans-serif";
+}
+
+header{
+	background: linear-gradient(#ebebeb,#fff);/* Standard syntax */
+	background: #ebebeb; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ebebeb,#fff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ebebeb,#fff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ebebeb,#fff); /* For Firefox 3.6 to 15 */
+	display: block;
+}
+
+header img{
+	display: inline-block;
+	margin-left:20px;
+}
+
+header h1{
+	display: inline-block;
+	font-size: 17px;
+	margin-left: 290px;
+	vertical-align: top;
+	margin-top: 35px;
+}
+
+#navbar{
+	background: linear-gradient(#f3f6f7,#d6dde2,#ecf0f3);/* Standard syntax */
+	background: #d6dde2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f3f6f7,#d6dde2,#ecf0f3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f3f6f7,#d6dde2,#ecf0f3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f3f6f7,#d6dde2,#ecf0f3); /* For Firefox 3.6 to 15 */
+}
+
+#navbar ul{
+	margin: 0;
+	border-top: 2px solid #999;
+}
+
+#navbar li{
+	display: inline-block;
+	border-left: 1px solid #ccc;
+	height: 25px;
+	padding-top: 2px;
+}
+
+#navbar li:last-child{
+	border-right: 1px solid #ccc;
+}
+
+#navbar li a{
+	color: #666;
+	font-size: 13px;
+	font-weight: 800;
+	text-decoration: none;
+	padding: 0 9px;
+}
+
+#navbar ul li img{
+	width: 8px;
+}
+
+#mainContent{
+	background-color: black;
+}
+
+#about img{
+	border: 5px solid white;
+	display: inline-block;
+	margin: 15px 5px 0 35px;
+}
+
+#aboutBox{
+	display: inline-block;
+	background-color: #666;
+	width: 500px;
+	margin: 15px 10px 10px 10px;
+	vertical-align: top;
+}
+
+.titleBig{
+	background: linear-gradient(#fbd15b,#fdcb46);/* Standard syntax */
+	background: #fdcb46; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fbd15b,#fdcb46); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fbd15b,#fdcb46); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fbd15b,#fdcb46); /* For Firefox 3.6 to 15 */
+	display: block;
+	padding: 5px;
+}
+
+.titleBig h2{
+	font-size: 15px;
+	margin: 0 0 0 8px;
+}
+
+.descriptionBig{
+	font-size: 12px;
+	padding: 17px;
+	padding-bottom: 21px;
+	color: white;
+}
+
+.descriptionBig h2{
+	font-size: 15px;
+	margin-top: 0;
+}
+
+#bulkMessage{
+	color: #8f9966;
+	font-size: 10px;
+	padding-left: 45px;
+}
+
+#bulkMessage img{
+	width: 50px;
+	display: inline-block;
+}
+
+#bulkMessage p{
+	display: inline-block;
+	margin: 0 0 0 10px;
+	vertical-align: top;
+	padding-top: 1px;
+}
+
+#capabilities{
+	padding: 0 35px;
+	margin-top: 8px;
+	padding-bottom: 50px;
+}
+
+.aboutBoxSmall{
+	display: inline-block;
+	width: 211px;
+	vertical-align: top;
+	margin-right: .88em;
+}
+
+.aboutBoxSmall:last-child{
+	margin-right: 0;
+}
+
+.smallTitle{
+	background: linear-gradient(#fbd15b,#fdcb46);/* Standard syntax */
+	background: #fdcb46; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fbd15b,#fdcb46); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fbd15b,#fdcb46); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fbd15b,#fdcb46); /* For Firefox 3.6 to 15 */
+	display: block;
+	padding: 5px;
+}
+
+.smallTitle h2{
+	font-size: 15px;
+	margin: 0 0 0 8px;
+}
+
+.aboutBoxSmall img{
+	display: block;
+	width: 100%;
+}
+
+.descriptionSmall{
+	background: linear-gradient(#fff,#fff4de);/* Standard syntax */
+	background: ##fff4de; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fff,#fff4de); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff,#fff4de); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff,#fff4de); /* For Firefox 3.6 to 15 */
+    text-align: right;
+    height: 120px;
+}
+
+.descriptionSmall p{
+	font-size: 10px;
+	font-weight: 500;
+	padding: 12px;
+	margin: 0;
+	text-align: left;
+	height: 60px;
+}
+
+.descriptionSmall img{
+	width: 100px;
+	margin-right: 15px;
+	margin-bottom: 7px;
+	display: inline-block;
+}
+
+

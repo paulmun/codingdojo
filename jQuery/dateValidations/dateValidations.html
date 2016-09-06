@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Date Validations</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="js/jquery-ui/jquery-ui.min.css">
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/jquery-ui/jquery-ui.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.datepicker').datepicker();
+			$('#chicken').click(function(e){
+				e.preventDefault();
+				var data = {};
+				$('form').serializeArray().map(function(x){
+					data[x.name]=x.value;
+				});
+				if(data.fdate === "" || data.tdate === "" || data.name === ""){
+					$('#chicken').css('background-color','maroon');
+					if(data.fdate === ""){
+						$('input[name="fdate"]').css('border','1px solid maroon');
+					};
+					if(data.tdate === ""){
+						$('input[name="tdate"]').css('border','1px solid maroon');
+					}
+					if(data.name === ""){
+						$('input[name="name"]').css('border','1px solid maroon');
+					}
+					alert('Fill in all the fields!');
+				}
+				else if(data.fdate>data.tdate){
+					$('#chicken').css('background-color','maroon');
+					alert('"From date" cannot be later than "To date"!')
+				}
+				else{
+					$('#chicken').css('background-color','darkblue');
+					alert('Your trip has been booked!')
+				}
+			})
+
+		});
+	</script>
+</head>
+<body>
+	<h2>Welcome to the Codingdojo plan-a-Cruise!</h2>
+	<form>
+		<p>From: </p>
+		<input type="text" class="datepicker" name="fdate">
+		<p>To: </p>
+		<input type="text" class="datepicker" name="tdate">
+		<p>Name: </p>
+		<input type="text" name="name">
+		<button id="chicken">Check date!</button>
+	</form>
+
+</body>
+</html>

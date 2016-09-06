@@ -1,0 +1,38 @@
+#tHeader{
+	border: 2px solid black;
+	height: 30px;
+	width: 621px;
+	display: block;
+}
+
+th{
+	width: 150px;
+	margin-top: 4px;
+	display: inline-block;
+}
+
+tr{
+	width: 300px;
+	display: block;
+}
+
+#title{
+	font-size: 34px;
+	font-weight: 800;
+	border-bottom: 3px solid grey;
+	display: block;
+	height: 35px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+td{
+	text-align: right;
+	display: block;
+}
+
+button{
+	margin-top: 40px;
+	margin-left: 238px;
+}

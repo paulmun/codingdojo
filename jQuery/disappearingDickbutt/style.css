@@ -1,0 +1,33 @@
+*{
+	font-family: helvetica, sans-serif;
+}
+
+#wrapper{
+	width: 800px;
+}
+
+	h2{
+		text-align:center;
+	}
+
+	img{
+		width: 150px;
+		display: inline-block;
+		margin:20px;
+		font-family: "sans-serif";
+		border:2px solid black;
+	}
+
+	#wrapper a{
+		display: block;
+		width: 200px;
+		height: 30px;
+		background-color: green;
+		color: #fff;
+		margin-top: 40px;
+		text-decoration: none;
+		text-align: center;
+		padding-top: 7px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}

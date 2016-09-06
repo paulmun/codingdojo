@@ -1,0 +1,33 @@
+cd / Users paul Desktop
+
+mkdir test
+
+cd test
+
+touch index.html
+
+touch styles.css
+
+touch commands.txt
+
+cp index.html index_2.html
+
+cd ..
+
+mkdir destination
+
+cd test
+
+mv index_2.html ../destination/index_2.html
+
+rm styles.css
+
+ls
+
+ls ../destination
+
+rm -rf ../destination
+
+pwd
+ 
+echo

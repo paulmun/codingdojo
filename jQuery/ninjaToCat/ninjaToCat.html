@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ninja to Cat</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var temp = 0
+			$('img').click(function(){
+				temp = this.src;
+				this.src = $(this).attr('data-alt');
+				$(this).attr('data-alt',temp);
+			});
+			$('a').click(function(){
+				for(var i = 0; i <= 4; i++){
+					$('img').each(function(i){
+						temp = this.src;
+						this.src = $(this).attr('data-alt');
+						$(this).attr('data-alt',temp);
+					});
+				};
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+		<img src="img/cat0.png" alt="PT1" data-alt="img/ninja0.png">
+		<img src="img/cat1.png" alt="PT2" data-alt="img/ninja1.png">
+		<img src="img/cat2.png" alt="PT3" data-alt="img/ninja2.png">
+		<img src="img/cat3.png" alt="PT4" data-alt="img/ninja3.png">
+		<img src="img/cat4.png" alt="PT5" data-alt="img/ninja4.png">
+		<a href="#">FLIP</a>
+	</div>
+</body>
+</html>
