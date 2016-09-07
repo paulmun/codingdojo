@@ -1,0 +1,52 @@
+form {
+    width: 600px;
+}
+
+#formLeft {
+    display: inline-block;
+    width: 50%;
+}
+
+#formRight {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    text-align: left;
+}
+
+#formRight input {
+    display: block;
+    width: 200px;
+}
+
+#formRight select {
+    display: block;
+    width: 200px;
+    margin: 20px;
+}
+
+#formLeft p {
+    margin: 20px 5px;
+}
+
+#formRight input {
+    margin: 20px;
+}
+
+#formBot textarea {
+    width: 530px;
+}
+
+#formBot p {
+    margin: 20px 5px;
+}
+
+#resultsLeft {
+    display: inline-block;
+}
+
+#resultsRight {
+    display: inline-block;
+    margin-left: 30px;
+}
+
