@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Great Number Game</title>
+</head>
+<body>
+	<h2>Welcome to The Great Number Game!</h2>
+	<p>I am thinking of a number between 1 and 100</p>
+	<p>Take a guess!</p>
+	<div id="block">
+		<p>Too high!</p>
+	</div>
+	<form action="/verify" method="post">
+		<input type="number" name="guess">
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
