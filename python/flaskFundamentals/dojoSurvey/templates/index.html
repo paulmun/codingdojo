@@ -7,13 +7,20 @@
 </head>
 <body>
 	<form action="/result" method="post">
+		{% with messages = get_flashed_messages() %}
+			{% if messages %}
+				{% for message in messages %}
+			        <p>{{message}}</p>
+			    {% endfor %}
+			{% endif %}
+		{% endwith %}
 		<div id="formLeft">
 			<p>Your Name:</p>
 			<p>Dojo Location:</p>
 			<p>Favorite Language:</p>
 		</div>
 		<div id="formRight">
-			<input type="text" name="name">
+			<input type="text" name="name" value={{name}}>
 			<select name="location">
 				<option value="San Jose">San Jose</option>
 				<option value="Seattle">Seattle</option>

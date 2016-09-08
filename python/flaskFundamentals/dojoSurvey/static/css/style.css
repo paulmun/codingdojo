@@ -48,5 +48,6 @@ form {
 #resultsRight {
     display: inline-block;
     margin-left: 30px;
+    vertical-align:top;
 }
 
