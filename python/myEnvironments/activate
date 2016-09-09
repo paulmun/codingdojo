@@ -1,0 +1,768 @@
+Script started on Thu Sep  8 20:59:07 2016
+]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/myEnvironments/Users/paul/.zshrc:export:88: not valid in this context: -w
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..yEnvironments]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/myEnvironments[0m[27m[24m[J[01;31m➜  [36mmyEnvironments[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=~ //py2FlaskEnv skr  cript start[?1l>
+]2;/py2FlaskEnv script start]1;/py2FlaskEnvzsh: no such file or directory: /py2FlaskEnv
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..yEnvironments]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/myEnvironments[0m[27m[24m[J[01;31m➜  [36mmyEnvironments[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=mmyEnvironments script start[?1l>
+]2;myEnvironments script start]1;myEnvironmentszsh: command not found: myEnvironments
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..yEnvironments]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/myEnvironments[0m[27m[24m[J[01;31m➜  [36mmyEnvironments[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=//myEnvironments script start[?1l>
+]2;/myEnvironments script start]1;/myEnvironmentszsh: no such file or directory: /myEnvironments
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..yEnvironments]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/myEnvironments[0m[27m[24m[J[01;31m➜  [36mmyEnvironments[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=iimport flask[?1l>
+]2;import flask]1;importzsh: command not found: import
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..yEnvironments]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/myEnvironments[0m[27m[24m[J[01;31m➜  [36mmyEnvironments[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ccd py2FlaskEnv[1m/[0m[0m [?1l>
+]2;cd py2FlaskEnv]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..s/py2FlaskEnv]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv[0m[27m[24m[J[01;32m➜  [36mpy2FlaskEnv[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=iimport flask[?1l>
+]2;import flask]1;importzsh: command not found: import
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..s/py2FlaskEnv]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv[0m[27m[24m[J[01;31m➜  [36mpy2FlaskEnv[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ppy2FlaskEnv import flask[?1l>
+]2;py2FlaskEnv import flask]1;py2FlaskEnvzsh: command not found: py2FlaskEnv
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..s/py2FlaskEnv]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv[0m[27m[24m[J[01;31m➜  [36mpy2FlaskEnv[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=iimport flask[?1l>
+]2;import flask]1;importzsh: command not found: import
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..s/py2FlaskEnv]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv[0m[27m[24m[J[01;31m➜  [36mpy2FlaskEnv[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..yEnvironments]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/myEnvironments[0m[27m[24m[J[01;32m➜  [36mmyEnvironments[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ssource py2 
+[1;31mpy2FlaskEnv[0m/       [1;32mpython[0m*            [1;36mpython2-config[0m@    [1;36mpython2.7-config[0m@  [1;36mpythonw2.6[0m@      
+[1;36mpydoc[0m@             [1;36mpython-32[0m@         [1;36mpython2.6[0m@         [1;32mpythonw[0m*           [1;36mpythonw2.7[0m@      
+[1;36mpydoc2[0m@            [1;36mpython-config[0m@     [1;36mpython2.6-config[0m@  [1;36mpythonw-32[0m@        [1;36mpythonw2.7-32[0m@   
+[1;36mpydoc2.6[0m@          [1;36mpython2[0m@           [1;36mpython2.7[0m@         [1;36mpythonw2[0m@                           
+[J[1;36mpydoc2.7[0m@          [J[1;36mpython2-32[0m@        [J[1;36mpython2.7-32[0m@      [J[1;36mpythonw2-32[0m@       [J                 [5A[0m[27m[24m[33Csource py[K2flask    Flaske Env/bin/activate[?1l>
+[J]2;source py2fFlaskEnv/bin/activate]1;sourcesource: no such file or directory: py2fFlaskEnv/bin/activate
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..yEnvironments]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/myEnvironments[0m[27m[24m[J[01;31m➜  [36mmyEnvironments[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ssource py2FlaskEnv/bin/activate [?1l>
+]2;source py2FlaskEnv/bin/activate]1;source[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..yEnvironments]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/myEnvironments[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mmyEnvironments[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ngdojo/python]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ts/codingdojo]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mcodingdojo[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ccd python[?1l>
+]2;cd python]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ngdojo/python]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;ls[1m[36mflaskFundamentals[39;49m[0m  [1m[36mmyEnvironments[39;49m[0m     [1m[36mpythonFundamentals[39;49m[0m
+[1m[36mflaskMySql[39;49m[0m         [1m[36mmySql[39;49m[0m              [1m[36mpythonOop[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ngdojo/python]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;ls[1m[36mflaskFundamentals[39;49m[0m  [1m[36mmyEnvironments[39;49m[0m     [1m[36mpythonFundamentals[39;49m[0m
+[1m[36mflaskMySql[39;49m[0m         [1m[36mmySql[39;49m[0m              [1m[36mpythonOop[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ngdojo/python]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ppyp  fflaskfFundamentals[1m/[0m[0m [?1l>
+]2;flaskFundamentals]1;flaskFundamentals[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..kFundamentals]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskFundamentals[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;ls[1m[36mcounter[39;49m[0m              dojoSurvey.zip       [1m[36mlandingPage[39;49m[0m          registrationForm.zip
+counter.zip          [1m[36mformTest[39;49m[0m             landingPage.zip      [1m[36mtestTemplates[39;49m[0m
+[1m[36mdisappearingNinja[39;49m[0m    [1m[36mgreatNumberGame[39;49m[0m      [1m[36mninjaGold[39;49m[0m
+[1m[36mdojoSurvey[39;49m[0m           greatNumberGame.zip  ninjaGold.zip
+dojoSurvey 2.zip     [1m[36mhelloFlask[39;49m[0m           [1m[36mregistrationForm[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..kFundamentals]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskFundamentals[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ddisa
+[J[0mdisable             [J[1;31mdisappearingNinja[0m/[J[A[0m[27m[24m[50Cdisa[K  d  ccd disappearingNinja[1m/[0m[0m                  c  ddis 
+[J[0mdis_aliases         disable             disktool            distnoted         
+dis_functions       [1;31mdisappearingNinja[0m/  diskutil                              
+dis_galiases        diskhits            disown                                
+[Jdis_saliases        [Jdisklabel           [Jdispqlen.d          [J                  [4A[0m[27m[24m[50Cdis[Kdis
+[J[A[56C   a
+[J[J[0mdisable             [J[1;31mdisappearingNinja[0m/[J[A[0m[27m[24m[50Cdisa[K  d  ccd disappearingNinja[1m/[0m[0m [?1l>
+[J]2;cd disappearingNinja]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ppearingNinja]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mdisappearingNinja[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;lsserver.py [1m[36mtemplates[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ppearingNinja]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mdisappearingNinja[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;lsserver.py [1m[36mstatic[39;49m[0m    [1m[36mtemplates[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ppearingNinja]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mdisappearingNinja[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ppython server.py[?1l>
+]2;python server.py]1;python  File "server.py", line 1
+    import flask from Flask, render_template
+                    ^
+SyntaxError: invalid syntax
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ppearingNinja]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mdisappearingNinja[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python  File "server.py", line 4
+    pictures={'red':'static/img/raphael.jpg','blue':'static/img/leonardo.jpg','orange':'static/img/michelangelo.jpg','purple':'static/img/donatello.jpg','other':'static/img/notapril.jpg'}
+           ^
+SyntaxError: invalid syntax
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ppearingNinja]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mdisappearingNinja[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python  File "server.py", line 8
+    pictures={'red':'static/img/raphael.jpg','blue':'static/img/leonardo.jpg','orange':'static/img/michelangelo.jpg','purple':'static/img/donatello.jpg','other':'static/img/notapril.jpg'}
+           ^
+IndentationError: expected an indented block
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ppearingNinja]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mdisappearingNinja[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;pythonTraceback (most recent call last):
+  File "server.py", line 6, in <module>
+    @app.route('/ninjas/<color>', image=image)
+NameError: name 'image' is not defined
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ppearingNinja]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mdisappearingNinja[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python  File "server.py", line 21
+    return redirect(/)
+                    ^
+SyntaxError: invalid syntax
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ppearingNinja]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mdisappearingNinja[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [08/Sep/2016 22:24:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:24:12] "GET /ninjas HTTP/1.1" 404 -
+127.0.0.1 - - [08/Sep/2016 22:24:25] "GET /ninjas/red HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py", line 10, in turtles
+    session['image']=""
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/local.py", line 346, in __setitem__
+    self._get_current_object()[key] = value
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/sessions.py", line 126, in _fail
+    raise RuntimeError('the session is unavailable because no secret '
+RuntimeError: the session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+127.0.0.1 - - [08/Sep/2016 22:24:26] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:24:26] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:24:26] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:24:26] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:24:26] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:24:26] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [08/Sep/2016 22:24:53] "GET /ninjas/red HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py", line 21, in turtles
+    return redirect('/')
+NameError: global name 'redirect' is not defined
+127.0.0.1 - - [08/Sep/2016 22:24:54] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:24:54] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:24:54] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:24:54] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:24:54] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:24:54] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [08/Sep/2016 22:25:04] "GET /ninjas/red HTTP/1.1" 302 -
+127.0.0.1 - - [08/Sep/2016 22:25:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:25:08] "GET /ninjas HTTP/1.1" 404 -
+127.0.0.1 - - [08/Sep/2016 22:25:11] "GET /ninjas/red HTTP/1.1" 302 -
+127.0.0.1 - - [08/Sep/2016 22:25:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:25:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:25:28] "GET /session['image'] HTTP/1.1" 404 -
+127.0.0.1 - - [08/Sep/2016 22:25:33] "GET /ninjas/red HTTP/1.1" 302 -
+127.0.0.1 - - [08/Sep/2016 22:25:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:25:33] "GET /session['image'] HTTP/1.1" 404 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [08/Sep/2016 22:26:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:26:11] "GET /session['image'] HTTP/1.1" 404 -
+127.0.0.1 - - [08/Sep/2016 22:26:15] "GET /ninjas/red HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:26:16] "GET /ninjas/session['image'] HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:26:30] "GET /ninjas/red HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:26:30] "GET /ninjas/session['image'] HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:27:00] "GET /ninjas/red HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:27:00] "GET /ninjas/static/img/raphael.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [08/Sep/2016 22:27:16] "GET /ninjas/red HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:27:16] "GET /ninjas/static/img/raphael.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [08/Sep/2016 22:27:30] "GET /ninjas/red HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:27:30] "GET /ninjas/static/img/raphael.jpg HTTP/1.1" 404 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+  File "server.py", line 9
+    pictures={'red':'url_for('static', filename='raphael.jpg')','blue':'url_for('static', filename='leonardo.jpg')','orange':'url_for('static', filename='michelangelo.jpg')','purple':'static/img/donatello.jpg','other':'static/img/notapril.jpg'}
+                                   ^
+SyntaxError: invalid syntax
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ppearingNinja]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mdisappearingNinja[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python  File "server.py", line 9
+    pictures={'red':'url_for('static', filename='raphael.jpg')','blue':'url_for('static', filename='leonardo.jpg')','orange':'url_for('static', filename='michelangelo.jpg')','purple':'url_for('static', filename='donatello.jpg')','other':'url_for('static', filename='notapril.jpg')'}
+                                   ^
+SyntaxError: invalid syntax
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ppearingNinja]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mdisappearingNinja[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [08/Sep/2016 22:32:35] "GET /ninjas/red HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:32:36] "GET /ninjas/url_for('static',%20filename='raphael.jpg') HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [08/Sep/2016 22:33:40] "GET /ninjas/red HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:33:40] "GET /ninjas/%7B%7Burl_for('static',%20filename='raphael.jpg')%7D%7D HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [08/Sep/2016 22:35:22] "GET /ninjas/red HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:35:22] "GET /ninjas/url_for('static',%20filename='raphael.jpg') HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [08/Sep/2016 22:36:15] "GET /ninjas/red HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:36:15] "GET /ninjas/static/img/raphael.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [08/Sep/2016 22:36:39] "GET /ninjas/red HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:36:39] "GET /ninjas/static/img/raphael.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [08/Sep/2016 22:36:40] "GET /ninjas/red HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:36:40] "GET /ninjas/static/img/raphael.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [08/Sep/2016 22:36:41] "GET /ninjas/red HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:36:41] "GET /ninjas/static/img/raphael.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [08/Sep/2016 22:36:42] "GET /ninjas/red HTTP/1.1" 200 -
+127.0.0.1 - - [08/Sep/2016 22:36:42] "GET /ninjas/static/img/raphael.jpg HTTP/1.1" 404 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 08:40:32] "GET /ninjas/red HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py", line 21, in turtles
+    return render_template('index.html')
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 786, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 565, in compile
+    self.handle_exception(exc_info, source_hint=source_hint)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/templates/index.html", line 8, in template
+    <img src="{{ url_for('static', filename='{{session['image']}}') }}" alt="">
+TemplateSyntaxError: expected token ',', got 'image'
+127.0.0.1 - - [09/Sep/2016 08:40:33] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:40:33] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:40:33] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:40:33] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:40:33] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:40:33] "GET /ninjas/red?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:46:51] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py", line 6, in index
+    return render_template('index.html')
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 786, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 565, in compile
+    self.handle_exception(exc_info, source_hint=source_hint)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/templates/index.html", line 8, in template
+    <img src="{{ url_for('static', filename='{{session['image']}}') }}" alt="">
+TemplateSyntaxError: expected token ',', got 'image'
+127.0.0.1 - - [09/Sep/2016 08:46:51] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:46:51] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:46:51] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:46:51] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:46:51] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:46:51] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:47:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:47:27] "GET /static/%7B%7Bsession%5B%5D%7D%7D HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 08:47:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:47:28] "GET /static/%7B%7Bsession%5B%5D%7D%7D HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 08:47:31] "GET /red HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 08:47:43] "GET /red HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 08:47:44] "GET /red HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 08:47:45] "GET /red HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 08:48:00] "GET /red HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 08:48:02] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py", line 6, in index
+    return render_template('index.html')
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 786, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 565, in compile
+    self.handle_exception(exc_info, source_hint=source_hint)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/templates/index.html", line 8, in template
+    <img src="{{ url_for('static', filename='{{session['image']}}') }}">
+TemplateSyntaxError: expected token ',', got 'image'
+127.0.0.1 - - [09/Sep/2016 08:48:02] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:02] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:02] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:02] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:02] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:02] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:52] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py", line 6, in index
+    return render_template('index.html')
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 786, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 565, in compile
+    self.handle_exception(exc_info, source_hint=source_hint)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/templates/index.html", line 8, in template
+    <img src="{{ url_for('static', filename='{{session[',']}}') }}">
+TemplateSyntaxError: invalid syntax for function call expression
+127.0.0.1 - - [09/Sep/2016 08:48:52] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:52] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:52] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:52] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:53] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py", line 6, in index
+    return render_template('index.html')
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 786, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 565, in compile
+    self.handle_exception(exc_info, source_hint=source_hint)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/templates/index.html", line 8, in template
+    <img src="{{ url_for('static', filename='{{session[',']}}') }}">
+TemplateSyntaxError: invalid syntax for function call expression
+127.0.0.1 - - [09/Sep/2016 08:48:53] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:53] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:53] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:53] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:53] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:48:53] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:49:15] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py", line 6, in index
+    return render_template('index.html')
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 786, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 565, in compile
+    self.handle_exception(exc_info, source_hint=source_hint)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/templates/index.html", line 8, in template
+    <img src="{{ url_for('static', filename='{{session['image']}}') }}">
+TemplateSyntaxError: expected token ',', got 'image'
+127.0.0.1 - - [09/Sep/2016 08:49:15] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:49:15] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:49:15] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:49:15] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:49:15] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:49:15] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:51:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 08:51:44] "GET /static/img/raphael.jpg HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:01:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:01:46] "GET /static/img/raphael.jpg HTTP/1.1" 404 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 09:06:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:06:54] "GET /static/img/raphael.jpg HTTP/1.1" 404 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 09:07:16] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "server.py", line 5, in <module>
+    session['image']=""
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/local.py", line 346, in __setitem__
+    self._get_current_object()[key] = value
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/local.py", line 302, in _get_current_object
+    return self.__local()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/globals.py", line 20, in _lookup_req_object
+    raise RuntimeError('working outside of request context')
+RuntimeError: working outside of request context
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ppearingNinja]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mdisappearingNinja[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;pythonTraceback (most recent call last):
+  File "server.py", line 5, in <module>
+    session['image']=""
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/local.py", line 346, in __setitem__
+    self._get_current_object()[key] = value
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/local.py", line 302, in _get_current_object
+    return self.__local()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/globals.py", line 20, in _lookup_req_object
+    raise RuntimeError('working outside of request context')
+RuntimeError: working outside of request context
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ppearingNinja]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mdisappearingNinja[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 09:17:54] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py", line 6, in index
+    return render_template('index.html')
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 786, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 565, in compile
+    self.handle_exception(exc_info, source_hint=source_hint)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/templates/index.html", line 13, in template
+    {% elif session['image']==}
+TemplateSyntaxError: unexpected '}'
+127.0.0.1 - - [09/Sep/2016 09:17:54] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:17:54] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:17:54] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:17:54] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:17:55] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:17:55] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:17:58] "GET /ninjas HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:18:16] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py", line 6, in index
+    return render_template('index.html')
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 786, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 565, in compile
+    self.handle_exception(exc_info, source_hint=source_hint)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/templates/index.html", line 13, in template
+    {% elif session['image']}
+TemplateSyntaxError: unexpected '}'
+127.0.0.1 - - [09/Sep/2016 09:18:17] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:18:17] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:18:17] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:18:17] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:18:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:18:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:18:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:18:27] "GET /ninjas HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:18:30] "GET /ninja HTTP/1.1" 404 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 09:21:12] "GET /ninja HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:21:12] "GET /static/img/raphael.png HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:21:12] "GET /static/img/leonardo.png HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:21:12] "GET /static/img/michelangelo.png HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:21:12] "GET /static/img/donatello.png HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:21:48] "GET /ninja HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:21:48] "GET /static/img/raphael.png HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:21:48] "GET /static/img/leonardo.png HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:21:48] "GET /static/img/michelangelo.png HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:21:48] "GET /static/img/donatello.png HTTP/1.1" 404 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 09:22:21] "GET /ninja HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:22:22] "GET /static/img/raphael.png HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:22:22] "GET /static/img/leonardo.png HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:22:22] "GET /static/img/michelangelo.png HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:22:22] "GET /static/img/donatello.png HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:22:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:22:27] "GET /static/img/raphael.png HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:22:27] "GET /static/img/leonardo.png HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:22:27] "GET /static/img/michelangelo.png HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:22:27] "GET /static/img/donatello.png HTTP/1.1" 404 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 09:22:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:23:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:23:38] "GET /ninja HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:23:39] "GET /static/img/raphael.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:23:39] "GET /static/img/leonardo.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:23:39] "GET /static/img/michelangelo.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:23:39] "GET /static/img/donatello.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:23:55] "GET /ninja/red HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:27:28] "GET /ninja/red HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:27:29] "GET /ninja/red HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:27:49] "GET /ninja/asdfaf HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:28:56] "GET /ninja/asdfaf HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:28:58] "GET /ninja/asdfaf HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:29:01] "GET /ninja/red HTTP/1.1" 404 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 09:29:08] "GET /ninja/red HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:29:11] "GET /ninja/red HTTP/1.1" 404 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 09:29:45] "GET /ninja/red HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py", line 25, in colors
+    return render_template('index.html')
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 786, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 565, in compile
+    self.handle_exception(exc_info, source_hint=source_hint)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/templates/index.html", line 15, in template
+    {% end elif %}
+TemplateSyntaxError: Encountered unknown tag 'end'. Jinja was looking for the following tags: 'elif' or 'else' or 'endif'. The innermost block that needs to be closed is 'if'.
+127.0.0.1 - - [09/Sep/2016 09:29:46] "GET /ninja/red?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:29:46] "GET /ninja/red?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:29:46] "GET /ninja/red?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:29:46] "GET /ninja/red?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:29:46] "GET /ninja/red?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:29:46] "GET /ninja/red?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:30:09] "GET /ninja/red HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:30:09] "GET /static/img/raphael.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:30:12] "GET /ninja/rasdfasdf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:30:12] "GET /static/img/notapril.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:30:18] "GET /ninja/blue HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:30:18] "GET /static/img/leonardo.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:30:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:30:24] "GET /static/img/notapril.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:31:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:31:07] "GET /static/img/notapril.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:31:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:31:17] "GET /static/img/notapril.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:31:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:32:02] "GET /dalkjfds HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 09:32:08] "GET /ninja HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:32:08] "GET /static/img/raphael.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:32:08] "GET /static/img/leonardo.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:32:08] "GET /static/img/michelangelo.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 09:32:08] "GET /static/img/donatello.jpg HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223

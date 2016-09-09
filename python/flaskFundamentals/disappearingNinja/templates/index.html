@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Disappearing Ninja</title>
+</head>
+<body>
+	{% if session['image']=='ninja' %}
+		<img src="{{ url_for('static', filename='img/raphael.jpg') }}">
+		<img src="{{ url_for('static', filename='img/leonardo.jpg') }}">
+		<img src="{{ url_for('static', filename='img/michelangelo.jpg') }}">
+		<img src="{{ url_for('static', filename='img/donatello.jpg') }}">
+	{% elif session['image']=='raphael' %}
+		<img src="{{ url_for('static', filename='img/raphael.jpg') }}">
+	{% elif session['image']=='leonardo' %}
+		<img src="{{ url_for('static', filename='img/leonardo.jpg') }}">
+	{% elif session['image']=='michelangelo' %}
+		<img src="{{ url_for('static', filename='img/donatello.jpg') }}">
+	{% elif session['image']=='donatello' %}
+		<img src="{{ url_for('static', filename='img/donatello.jpg') }}">
+	{% elif session['image']=='' %}
+		<img src="">
+	{% else %}
+		<img src="{{ url_for('static', filename='img/notapril.jpg') }}">
+
+	{% endif %}
+		 
+</body>
+</html>
