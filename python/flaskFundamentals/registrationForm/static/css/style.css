@@ -1,0 +1,14 @@
+div#formLeft {
+    width: 200px;
+    display: inline-block;
+}
+
+#formRight {
+    display: inline-block;
+    width: 300px;
+}
+
+#formRight input {
+    display: block;
+    margin: 1.5em;
+}

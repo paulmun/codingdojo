@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+	<h2>Registration Form</h2>
+	<form action="/verify" method="POST">
+		<div id="formLeft">
+			<p>Email:</p>
+			<p>First Name:</p>
+			<p>Last Name:</p>
+			<p>Password:</p>
+			<p>Confirm Password:</p>
+		</div>
+		<div id="formRight">
+			<input type="text" name="email">
+			<input type="text" name="firstName">
+			<input type="text" name="lastName">
+			<input type="text" name="password">
+			<input type="text" name="confirmPass">
+		</div>
+		<input type="submit" value="Submit">
+	</form>
+	{% with messages = get_flashed_messages() %}
+    	{% if messages %}
+      		{% for message in messages %}
+        		<p>{{message}}</p>
+      		{% endfor %}
+    	{% endif %}
+  	{% endwith %}
+</body>
+</html>
