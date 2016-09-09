@@ -766,3 +766,1171 @@ TemplateSyntaxError: Encountered unknown tag 'end'. Jinja was looking for the fo
  * Restarting with stat
  * Debugger is active!
  * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+exit()      √ ^C[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ppearingNinja]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mdisappearingNinja[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;lsserver.py [1m[36mstatic[39;49m[0m    [1m[36mtemplates[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ppearingNinja]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals/disappearingNinja[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mdisappearingNinja[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..kFundamentals]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskFundamentals[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;ls[1m[36mcounter[39;49m[0m               dojoSurvey 2.zip      [1m[36mhelloFlask[39;49m[0m            [1m[36mregistrationForm[39;49m[0m
+counter.zip           dojoSurvey.zip        [1m[36mlandingPage[39;49m[0m           registrationForm.zip
+[1m[36mdisappearingNinja[39;49m[0m     [1m[36mformTest[39;49m[0m              landingPage.zip       [1m[36mtestTemplates[39;49m[0m
+disappearingNinja.zip [1m[36mgreatNumberGame[39;49m[0m       [1m[36mninjaGold[39;49m[0m
+[1m[36mdojoSurvey[39;49m[0m            greatNumberGame.zip   ninjaGold.zip
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..kFundamentals]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskFundamentals[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskFundamentals[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ngdojo/python]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;ls[1m[36mflaskFundamentals[39;49m[0m  [1m[36mmyEnvironments[39;49m[0m     [1m[36mpythonFundamentals[39;49m[0m
+[1m[36mflaskMySql[39;49m[0m         [1m[36mmySql[39;49m[0m              [1m[36mpythonOop[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ngdojo/python]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ccd flaskmyMySql[1m/[0m[0m [?1l>
+]2;cd flaskMySql]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..on/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ccd flaskMySql[1m/[0m[0m [?1l>
+]2;cd flaskMySql]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ql/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ppython pyt   server.py[?1l>
+]2;python server.py]1;pythonTraceback (most recent call last):
+  File "server.py", line 8, in <module>
+    print mysql.query_db("SELECT * FROM users")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/_collections.py", line 990, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py", line 771, in create_session
+    return SignallingSession(self, **options)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py", line 155, in __init__
+    bind = options.pop('bind', None) or db.engine
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py", line 893, in engine
+    return self.get_engine(self.get_app())
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py", line 910, in get_engine
+    return connector.get_engine()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py", line 545, in get_engine
+    self._engine = rv = sqlalchemy.create_engine(info, **options)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py", line 386, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 75, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 92, in dbapi
+    return __import__('MySQLdb')
+ImportError: No module named MySQLdb
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ql/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;pythonTraceback (most recent call last):
+  File "server.py", line 8, in <module>
+    print mysql.query_db("SELECT * FROM users")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/_collections.py", line 990, in __call__
+    return self.registry.setdefault(key, self.createfunc())
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py", line 771, in create_session
+    return SignallingSession(self, **options)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py", line 155, in __init__
+    bind = options.pop('bind', None) or db.engine
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py", line 893, in engine
+    return self.get_engine(self.get_app())
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py", line 910, in get_engine
+    return connector.get_engine()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py", line 545, in get_engine
+    self._engine = rv = sqlalchemy.create_engine(info, **options)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py", line 386, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 75, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 92, in dbapi
+    return __import__('MySQLdb')
+ImportError: No module named MySQLdb
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ql/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ppip install MySq QL-python==1.2.65  6 5[?1l>
+]2;pip install MySQL-python==1.2.5]1;pipCollecting MySQL-python==1.2.5
+  Using cached MySQL-python-1.2.5.zip
+Building wheels for collected packages: MySQL-python
+  Running setup.py bdist_wheel for MySQL-python ... [?25l- \ done
+[?25h  Stored in directory: /Users/paul/Library/Caches/pip/wheels/38/a3/89/ec87e092cfb38450fc91a62562055231deb0049a029054dc62
+Successfully built MySQL-python
+Installing collected packages: MySQL-python
+Successfully installed MySQL-python-1.2.5
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ql/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ppip install Flask-SQLAlchemy==2.1[?1l>
+]2;pip install Flask-SQLAlchemy==2.1]1;pipRequirement already satisfied (use --upgrade to upgrade): Flask-SQLAlchemy==2.1 in /Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages
+Requirement already satisfied (use --upgrade to upgrade): Flask>=0.10 in /Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages (from Flask-SQLAlchemy==2.1)
+Requirement already satisfied (use --upgrade to upgrade): SQLAlchemy>=0.7 in /Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages (from Flask-SQLAlchemy==2.1)
+Requirement already satisfied (use --upgrade to upgrade): Jinja2>=2.4 in /Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages (from Flask>=0.10->Flask-SQLAlchemy==2.1)
+Requirement already satisfied (use --upgrade to upgrade): Werkzeug>=0.7 in /Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages (from Flask>=0.10->Flask-SQLAlchemy==2.1)
+Requirement already satisfied (use --upgrade to upgrade): itsdangerous>=0.21 in /Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages (from Flask>=0.10->Flask-SQLAlchemy==2.1)
+Requirement already satisfied (use --upgrade to upgrade): MarkupSafe in /Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages (from Jinja2>=2.4->Flask>=0.10->Flask-SQLAlchemy==2.1)
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ql/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=pip install Flask-SQLAlchemy==2.1[33D                                 [33Do ppython py  server.py[?1l>
+]2;python server.py]1;pythonTraceback (most recent call last):
+  File "server.py", line 8, in <module>
+    print mysql.query_db("SELECT * FROM users")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 898, in _connection_for_bind
+    engine, execution_options)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 334, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2039, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2078, in _wrap_pool_connect
+    e, dialect, self)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1405, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2074, in _wrap_pool_connect
+    return fn()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 376, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 713, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 480, in checkout
+    rec = pool._do_get()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1060, in _do_get
+    self._dec_overflow()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1057, in _do_get
+    return self._create_connection()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 323, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 449, in __init__
+    self.connection = self.__connect()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 607, in __connect
+    connection = self.__pool._invoke_creator(self)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 97, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 385, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+sqlalchemy.exc.OperationalError: (_mysql_exceptions.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' (61)")
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ql/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;pythonTraceback (most recent call last):
+  File "server.py", line 8, in <module>
+    print mysql.query_db("SELECT * FROM users")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 898, in _connection_for_bind
+    engine, execution_options)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 334, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2039, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2078, in _wrap_pool_connect
+    e, dialect, self)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1405, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2074, in _wrap_pool_connect
+    return fn()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 376, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 713, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 480, in checkout
+    rec = pool._do_get()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1060, in _do_get
+    self._dec_overflow()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1057, in _do_get
+    return self._create_connection()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 323, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 449, in __init__
+    self.connection = self.__connect()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 607, in __connect
+    connection = self.__pool._invoke_creator(self)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 97, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 385, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+sqlalchemy.exc.OperationalError: (_mysql_exceptions.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' (61)")
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ql/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;pythonTraceback (most recent call last):
+  File "server.py", line 8, in <module>
+    print mysql.query_db("SELECT * FROM users")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 898, in _connection_for_bind
+    engine, execution_options)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 334, in _connection_for_bind
+    conn = bind.contextual_connect()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2039, in contextual_connect
+    self._wrap_pool_connect(self.pool.connect, None),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2078, in _wrap_pool_connect
+    e, dialect, self)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1405, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 2074, in _wrap_pool_connect
+    return fn()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 376, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 713, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 480, in checkout
+    rec = pool._do_get()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1060, in _do_get
+    self._dec_overflow()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 1057, in _do_get
+    return self._create_connection()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 323, in _create_connection
+    return _ConnectionRecord(self)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 449, in __init__
+    self.connection = self.__connect()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/pool.py", line 607, in __connect
+    connection = self.__pool._invoke_creator(self)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 97, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 385, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+sqlalchemy.exc.OperationalError: (_mysql_exceptions.OperationalError) (2003, "Can't connect to MySQL server on '127.0.0.1' (61)")
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ql/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;pythonTraceback (most recent call last):
+  File "server.py", line 8, in <module>
+    print mysql.query_db("SELECT * FROM users")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+sqlalchemy.exc.ProgrammingError: (_mysql_exceptions.ProgrammingError) (1146, "Table 'mydb.users' doesn't exist") [SQL: u'SELECT * FROM users']
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ql/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;pythonTraceback (most recent call last):
+  File "server.py", line 8, in <module>
+    print mysql.query_db("SELECT * FROM users")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+sqlalchemy.exc.ProgrammingError: (_mysql_exceptions.ProgrammingError) (1146, "Table 'mydb.users' doesn't exist") [SQL: u'SELECT * FROM users']
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ql/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;pythonTraceback (most recent call last):
+  File "server.py", line 8, in <module>
+    print mysql.query_db("SELECT * FROM users")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+sqlalchemy.exc.ProgrammingError: (_mysql_exceptions.ProgrammingError) (1146, "Table 'mydb.users' doesn't exist") [SQL: u'SELECT * FROM users']
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ql/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python[]
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 10:26:18] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 10:26:29] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 10:28:47] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 10:28:49] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 10:29:00] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 10:29:02] "GET / HTTP/1.1" 404 -
+^[[A127.0.0.1 - - [09/Sep/2016 10:29:11] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [09/Sep/2016 10:30:07] "GET / HTTP/1.1" 404 -
+^[[A^[[A        ^R
+^[[ ^C[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ql/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python[{u'first_name': u'Bob', u'idusers': 1L}, {u'first_name': u'Bob', u'idusers': 2L}]
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+[{u'first_name': u'Bob', u'idusers': 1L}, {u'first_name': u'Bob', u'idusers': 2L}]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 13:54:52] "GET / HTTP/1.1" 404 -
+^[[A
+127.0.0.1 - - [09/Sep/2016 13:55:05] "GET / HTTP/1.1" 404 -
+^C[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ql/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;lsmysqlconnection.py  mysqlconnection.pyc server.py
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ql/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..on/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;ls[1m[36memailValWithDb[39;49m[0m [1m[36mflaskMySql[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..on/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..ngdojo/python]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ccd flask
+[J[1;31mflaskFundamentals[0m/  [J[1;31mflaskMySql[0m/       [J[A[0m[27m[24m[39Ccd flask[KmMySql[1m/[0m[0m [?1l>
+[J]2;cd flaskMySql]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..on/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;ls[1m[36memailValWithDb[39;49m[0m [1m[36mflaskMySql[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..on/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ccd emailvalV[2CWithDb[1m/[0m[0m [?1l>
+]2;cd emailValWithDb]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..mailValWithDb]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36memailValWithDb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;lsmysqlconnection.py server.py          [1m[36mtemplates[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..mailValWithDb]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36memailValWithDb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ppython server.py[?1l>
+]2;python server.py]1;pythonTraceback (most recent call last):
+  File "server.py", line 9, in <module>
+    print mysql.query_db("SELECT * FROM emailValDB")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+sqlalchemy.exc.ProgrammingError: (_mysql_exceptions.ProgrammingError) (1146, "Table 'emailvaldb.emailvaldb' doesn't exist") [SQL: u'SELECT * FROM emailValDB']
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..mailValWithDb]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36memailValWithDb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;pythonTraceback (most recent call last):
+  File "server.py", line 9, in <module>
+    print mysql.query_db("SELECT * FROM emailValDB")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+sqlalchemy.exc.ProgrammingError: (_mysql_exceptions.ProgrammingError) (1146, "Table 'emailvaldb.emailvaldb' doesn't exist") [SQL: u'SELECT * FROM emailValDB']
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..mailValWithDb]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36memailValWithDb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ppython server.py[?1l>
+]2;python server.py]1;pythonTraceback (most recent call last):
+  File "server.py", line 9, in <module>
+    print mysql.query_db("SELECT * FROM emailValDB")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+sqlalchemy.exc.ProgrammingError: (_mysql_exceptions.ProgrammingError) (1146, "Table 'emailvaldb.emailvaldb' doesn't exist") [SQL: u'SELECT * FROM emailValDB']
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..mailValWithDb]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36memailValWithDb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python[]
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 15:19:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:21:35] "GET /emailList?address=103841304 HTTP/1.1" 400 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 15:24:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:24:08] "POST /emailList HTTP/1.1" 405 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 15:25:17] "POST /emailList HTTP/1.1" 405 -
+127.0.0.1 - - [09/Sep/2016 15:25:21] "POST /emailList HTTP/1.1" 405 -
+127.0.0.1 - - [09/Sep/2016 15:25:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:25:24] "POST /emailList HTTP/1.1" 405 -
+127.0.0.1 - - [09/Sep/2016 15:28:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:28:06] "POST /emailList HTTP/1.1" 405 -
+127.0.0.1 - - [09/Sep/2016 15:28:12] "POST /emailList HTTP/1.1" 405 -
+127.0.0.1 - - [09/Sep/2016 15:28:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:28:16] "POST /emailList HTTP/1.1" 405 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 15:28:56] "POST /emailList HTTP/1.1" 405 -
+127.0.0.1 - - [09/Sep/2016 15:28:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:28:59] "POST /emailList HTTP/1.1" 405 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 15:29:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:29:36] "POST /emailList HTTP/1.1" 405 -
+127.0.0.1 - - [09/Sep/2016 15:29:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:29:55] "POST /emailList HTTP/1.1" 405 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 15:31:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:32:01] "POST /emailList HTTP/1.1" 405 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 15:34:23] "POST /emailList HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py", line 16, in emailInsert
+    flash("The Email address you've entered is invalid!")
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/helpers.py", line 366, in flash
+    session['_flashes'] = flashes
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/local.py", line 346, in __setitem__
+    self._get_current_object()[key] = value
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/sessions.py", line 126, in _fail
+    raise RuntimeError('the session is unavailable because no secret '
+RuntimeError: the session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+127.0.0.1 - - [09/Sep/2016 15:34:23] "GET /emailList?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:34:23] "GET /emailList?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:34:23] "GET /emailList?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:34:24] "GET /emailList?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:34:24] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:34:24] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "server.py", line 6, in <module>
+    app.secret_key='yup'
+NameError: name 'app' is not defined
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..mailValWithDb]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36memailValWithDb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;pythonTraceback (most recent call last):
+  File "server.py", line 6, in <module>
+    app.secret_key='yup'
+NameError: name 'app' is not defined
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..mailValWithDb]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36memailValWithDb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python[]
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 15:38:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:39:00] "POST /emailList HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py", line 20, in emailInsert
+    return render_template('/')
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 774, in _load_template
+    cache_key = self.loader.get_source(self, name)[1]
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 64, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: /
+127.0.0.1 - - [09/Sep/2016 15:39:01] "GET /emailList?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:39:01] "GET /emailList?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:39:01] "GET /emailList?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:39:01] "GET /emailList?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:39:01] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:39:01] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 15:39:57] "POST /emailList HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:40:00] "POST /emailList HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:40:18] "POST /emailList HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 15:40:41] "POST /emailList HTTP/1.1" 302 -
+127.0.0.1 - - [09/Sep/2016 15:40:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:40:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:40:45] "POST /emailList HTTP/1.1" 302 -
+127.0.0.1 - - [09/Sep/2016 15:40:45] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 15:54:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:54:53] "POST /emailList HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py", line 16, in emailInsert
+    queryResult=mysql.query_db("SELECT emails.name, emails.created_at FROM emails")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (_mysql_exceptions.OperationalError) (1054, "Unknown column 'emails.created_at' in 'field list'") [SQL: u'SELECT emails.name, emails.created_at FROM emails']
+127.0.0.1 - - [09/Sep/2016 15:54:53] "GET /emailList?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:54:53] "GET /emailList?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:54:53] "GET /emailList?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:54:53] "GET /emailList?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:54:53] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:54:53] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+^C[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..mailValWithDb]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36memailValWithDb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python[]
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 15:59:47] "POST /emailList HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:59:50] "POST /emailList HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 15:59:54] "POST /emailList HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:00:58] "POST /emailList HTTP/1.1" 200 -
+^[[A
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 16:01:59] "POST /emailList HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:02:01] "POST /emailList HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:02:04] "POST /emailList HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:02:08] "POST /emailList HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py", line 20, in emailInsert
+    return mysql.query_db("INSERT INTO emails (name, created_at) VALUES (request.form['address'], datetime.datetime.now())")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (_mysql_exceptions.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['address'], datetime.datetime.now())' at line 1") [SQL: u"INSERT INTO emails (name, created_at) VALUES (request.form['address'], datetime.datetime.now())"]
+127.0.0.1 - - [09/Sep/2016 16:02:08] "GET /emailList?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:02:08] "GET /emailList?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:02:08] "GET /emailList?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:02:08] "GET /emailList?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:02:08] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:02:08] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+  File "server.py", line 18
+    currentTime=
+               ^
+SyntaxError: invalid syntax
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..mailValWithDb]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36memailValWithDb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python  File "server.py", line 18
+    currentTime=
+               ^
+SyntaxError: invalid syntax
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..mailValWithDb]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36memailValWithDb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python[]
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 16:03:42] "GET /emailList HTTP/1.1" 405 -
+127.0.0.1 - - [09/Sep/2016 16:03:45] "POST /emailList HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py", line 22, in emailInsert
+    return mysql.query_db("INSERT INTO emails (name, created_at) VALUES (name, currentTime)")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (_mysql_exceptions.OperationalError) (1054, "Unknown column 'currentTime' in 'field list'") [SQL: u'INSERT INTO emails (name, created_at) VALUES (name, currentTime)']
+127.0.0.1 - - [09/Sep/2016 16:03:46] "GET /emailList?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:03:46] "GET /emailList?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:03:46] "GET /emailList?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:03:46] "GET /emailList?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:03:46] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:03:46] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 16:06:10] "POST /emailList HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py", line 22, in emailInsert
+    return mysql.query_db("INSERT INTO emails (name, created_at) VALUES (address, currentTime)")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (_mysql_exceptions.OperationalError) (1054, "Unknown column 'address' in 'field list'") [SQL: u'INSERT INTO emails (name, created_at) VALUES (address, currentTime)']
+127.0.0.1 - - [09/Sep/2016 16:06:10] "GET /emailList?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:06:10] "GET /emailList?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:06:10] "GET /emailList?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:06:10] "GET /emailList?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:06:10] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:06:10] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:06:12] "POST /emailList HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py", line 22, in emailInsert
+    return mysql.query_db("INSERT INTO emails (name, created_at) VALUES (address, currentTime)")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (_mysql_exceptions.OperationalError) (1054, "Unknown column 'address' in 'field list'") [SQL: u'INSERT INTO emails (name, created_at) VALUES (address, currentTime)']
+127.0.0.1 - - [09/Sep/2016 16:06:12] "GET /emailList?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:06:12] "GET /emailList?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:06:12] "GET /emailList?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:06:13] "GET /emailList?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:06:13] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 16:12:46] "POST /emailList HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1478, in full_dispatch_request
+    response = self.make_response(rv)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1577, in make_response
+    rv = self.response_class.force_type(rv, request.environ)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/wrappers.py", line 847, in force_type
+    response = BaseResponse(*_run_wsgi_app(response, environ))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/wrappers.py", line 57, in _run_wsgi_app
+    return _run_wsgi_app(*args)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/test.py", line 871, in run_wsgi_app
+    app_rv = app(environ, start_response)
+TypeError: 'long' object is not callable
+127.0.0.1 - - [09/Sep/2016 16:12:46] "GET /emailList?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:12:46] "GET /emailList?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:12:46] "GET /emailList?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:12:46] "GET /emailList?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:12:46] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:12:46] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:12:50] "POST /emailList HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:12:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:12:56] "POST /emailList HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[{u'created_at': datetime.datetime(2016, 9, 9, 16, 12, 46), u'id': 1L, u'name': u'paul@gmail.com'}]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[{u'created_at': datetime.datetime(2016, 9, 9, 16, 12, 46), u'id': 1L, u'name': u'paul@gmail.com'}]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 16:13:30] "POST /emailList HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:13:32] "POST /emailList HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+  File "server.py", line 21
+    query mysql.query_db("INSERT INTO emails (name, created_at) VALUES (:address, NOW())", {"address":address})
+              ^
+SyntaxError: invalid syntax
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..mailValWithDb]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36memailValWithDb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python[{u'created_at': datetime.datetime(2016, 9, 9, 16, 12, 46), u'id': 1L, u'name': u'paul@gmail.com'}]
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+[{u'created_at': datetime.datetime(2016, 9, 9, 16, 12, 46), u'id': 1L, u'name': u'paul@gmail.com'}]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 16:15:01] "GET /emailList HTTP/1.1" 405 -
+127.0.0.1 - - [09/Sep/2016 16:15:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:15:09] "POST /emailList HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[{u'created_at': datetime.datetime(2016, 9, 9, 16, 12, 46), u'id': 1L, u'name': u'paul@gmail.com'}]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[{u'created_at': datetime.datetime(2016, 9, 9, 16, 12, 46), u'id': 1L, u'name': u'paul@gmail.com'}]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[{u'created_at': datetime.datetime(2016, 9, 9, 16, 12, 46), u'id': 1L, u'name': u'paul@gmail.com'}]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 16:16:09] "POST /emailList HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py", line 24, in emailInsert
+    return render_template('/')
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 774, in _load_template
+    cache_key = self.loader.get_source(self, name)[1]
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 64, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: /
+127.0.0.1 - - [09/Sep/2016 16:16:09] "GET /emailList?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:16:09] "GET /emailList?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:16:09] "GET /emailList?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:16:10] "GET /emailList?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:16:10] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:16:10] "GET /emailList?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[{u'created_at': datetime.datetime(2016, 9, 9, 16, 12, 46), u'id': 1L, u'name': u'paul@gmail.com'}]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 16:16:23] "POST /emailList HTTP/1.1" 302 -
+127.0.0.1 - - [09/Sep/2016 16:16:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:19:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:19:47] "POST /emailList HTTP/1.1" 302 -
+127.0.0.1 - - [09/Sep/2016 16:19:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:21:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:21:34] "POST /emailList HTTP/1.1" 302 -
+127.0.0.1 - - [09/Sep/2016 16:21:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:21:37] "POST /emailList HTTP/1.1" 302 -
+127.0.0.1 - - [09/Sep/2016 16:21:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:21:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:22:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:23:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:23:34] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py", line 14, in index
+    return render_template('index.html', queryResult=queryResult)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 786, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 565, in compile
+    self.handle_exception(exc_info, source_hint=source_hint)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/templates/index.html", line 22, in template
+    <p>{{o['name']o['created_at']}}</p>
+TemplateSyntaxError: expected token 'end of print statement', got 'o'
+127.0.0.1 - - [09/Sep/2016 16:23:34] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:23:34] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:23:34] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:23:34] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:23:34] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:23:34] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:23:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:24:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:24:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:24:17] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[{u'created_at': datetime.datetime(2016, 9, 9, 16, 12, 46), u'id': 1L, u'name': u'paul@gmail.com'}, {u'created_at': datetime.datetime(2016, 9, 9, 16, 19, 47), u'id': 2L, u'name': u'paul@gmail.com'}]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/mysqlconnection.py', reloading
+ * Restarting with stat
+[{u'created_at': datetime.datetime(2016, 9, 9, 16, 12, 46), u'id': 1L, u'name': u'paul@gmail.com'}, {u'created_at': datetime.datetime(2016, 9, 9, 16, 19, 47), u'id': 2L, u'name': u'paul@gmail.com'}]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb/server.py', reloading
+ * Restarting with stat
+[{u'created_at': datetime.datetime(2016, 9, 9, 16, 12, 46), u'id': 1L, u'name': u'paul@gmail.com'}, {u'created_at': datetime.datetime(2016, 9, 9, 16, 19, 47), u'id': 2L, u'name': u'paul@gmail.com'}]
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
