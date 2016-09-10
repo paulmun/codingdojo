@@ -1934,3 +1934,2210 @@ TemplateSyntaxError: expected token 'end of print statement', got 'o'
 [{u'created_at': datetime.datetime(2016, 9, 9, 16, 12, 46), u'id': 1L, u'name': u'paul@gmail.com'}, {u'created_at': datetime.datetime(2016, 9, 9, 16, 19, 47), u'id': 2L, u'name': u'paul@gmail.com'}]
  * Debugger is active!
  * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 16:32:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 16:32:47] "POST /emailList HTTP/1.1" 302 -
+127.0.0.1 - - [09/Sep/2016 16:32:47] "GET / HTTP/1.1" 200 -
+subl    ^[[A
+^C[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..mailValWithDb]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/emailValWithDb[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36memailValWithDb[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ccd ..[?1l>
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..on/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;ls[1m[36memailValWithDb[39;49m[0m     emailValWithDb.zip [1m[36mflaskMySql[39;49m[0m         [1m[36mfullFriends[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..on/flaskMySql]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mflaskMySql[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ccd fullFriends[1m/[0m[0m [?1l>
+]2;cd fullFriends]1;cd[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;lsmysqlconnection.py server.py          [1m[36mtemplates[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ppython server.py[?1l>
+]2;python server.py]1;python  File "server.py", line 8
+    def friendsAdd()
+                   ^
+SyntaxError: invalid syntax
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python  File "server.py", line 10
+    @app.route('/friends/<friend>/edit')
+    ^
+IndentationError: expected an indented block
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python  File "server.py", line 10
+    @app.route('/friends/<friend>/edit')
+    ^
+IndentationError: expected an indented block
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python  File "server.py", line 10
+    @app.route('/friends/<friend>/edit')
+    ^
+IndentationError: expected an indented block
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python  File "server.py", line 15
+    @app.route('/friends/<friendId>')
+    ^
+IndentationError: expected an indented block
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python  File "server.py", line 17
+    
+                              ^
+IndentationError: expected an indented block
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;pythonTraceback (most recent call last):
+  File "server.py", line 1, in <module>
+    from flask import Flas, render_template, redirect, request, session, flash
+ImportError: cannot import name Flas
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=lls[?1l>
+]2;ls -G]1;lsmysqlconnection.py server.py          [1m[36mtemplates[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=ppython server. ,ot  pypy .py[?1l>
+]2;python server.py]1;python * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 18:28:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 18:31:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 18:31:35] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 19:06:05] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 9, in index
+    return render_template("index.html")
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 786, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/loaders.py", line 125, in load
+    code = environment.compile(source, name, filename)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 565, in compile
+    self.handle_exception(exc_info, source_hint=source_hint)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/templates/index.html", line 26, in template
+    {% forend %}
+TemplateSyntaxError: Encountered unknown tag 'forend'. Jinja was looking for the following tags: 'endfor' or 'else'. The innermost block that needs to be closed is 'for'.
+127.0.0.1 - - [09/Sep/2016 19:06:05] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:06:05] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:06:05] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:06:05] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:06:05] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:06:05] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:06:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:06:28] "GET /friends?fName=Paul&lName=Mun&email=paulmun818%40gmail.com HTTP/1.1" 400 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 19:08:25] "GET /friends?fName=Paul&lName=Mun&email=paulmun818%40gmail.com HTTP/1.1" 400 -
+127.0.0.1 - - [09/Sep/2016 19:08:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:08:35] "GET /friends?fName=paul&lName=Mun&email=paulmun818%40gmail.com HTTP/1.1" 400 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+  File "server.py", line 15
+    mysql.query_db('INSERT INTO friends (first_name, last_name, email) VALUES (fname, lname, email)',{fname='fname', lname='lname', email='email'})
+                                                                                                           ^
+SyntaxError: invalid syntax
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python  File "server.py", line 15
+    mysql.query_db('INSERT INTO friends (first_name, last_name, email) VALUES (:fname, :lname, :email)',{fname='fname', lname='lname', email='email'})
+                                                                                                              ^
+SyntaxError: invalid syntax
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 19:11:39] "GET /friends?fName=paul&lName=Mun&email=paulmun818%40gmail.com HTTP/1.1" 400 -
+127.0.0.1 - - [09/Sep/2016 19:11:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:11:59] "GET /friends?fName=Paul&lName=Mun&email=paulmun818%40gmail.com HTTP/1.1" 400 -
+127.0.0.1 - - [09/Sep/2016 19:13:28] "GET /friends?fName=Paul&lName=Mun&email=paulmun818%40gmail.com HTTP/1.1" 400 -
+127.0.0.1 - - [09/Sep/2016 19:13:49] "GET /friends?fName=Paul&lName=Mun&email=paulmun818%40gmail.com HTTP/1.1" 400 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 19:14:58] "GET /friends?fName=Paul&lName=Mun&email=paulmun818%40gmail.com HTTP/1.1" 400 -
+127.0.0.1 - - [09/Sep/2016 19:15:00] "GET /friends?fName=Paul&lName=Mun&email=paulmun818%40gmail.com HTTP/1.1" 400 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 19:15:28] "GET /friends?fName=Paul&lName=Mun&email=paulmun818%40gmail.com HTTP/1.1" 405 -
+127.0.0.1 - - [09/Sep/2016 19:15:30] "GET /friends?fName=Paul&lName=Mun&email=paulmun818%40gmail.com HTTP/1.1" 405 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 19:15:42] "GET /friends?fName=Paul&lName=Mun&email=paulmun818%40gmail.com HTTP/1.1" 405 -
+127.0.0.1 - - [09/Sep/2016 19:17:25] "GET /friends?fName=Paul&lName=Mun&email=paulmun818%40gmail.com HTTP/1.1" 405 -
+127.0.0.1 - - [09/Sep/2016 19:17:26] "GET /friends?fName=Paul&lName=Mun&email=paulmun818%40gmail.com HTTP/1.1" 405 -
+127.0.0.1 - - [09/Sep/2016 19:17:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:17:35] "POST /friends HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 15, in friendsAdd
+    mysql.query_db('INSERT INTO friends (first_name, last_name, email) VALUES (:fname, :lname, :email)',{fname:'fname', lname:'lname', email:'email'})
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1078, in _execute_context
+    None, None)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1073, in _execute_context
+    context = constructor(dialect, self, conn, *args)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 554, in _init_compiled
+    grp, m in enumerate(parameters)]
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py", line 479, in construct_params
+    % bindparam.key)
+StatementError: (sqlalchemy.exc.InvalidRequestError) A value is required for bind parameter 'fname' [SQL: u'INSERT INTO friends (first_name, last_name, email) VALUES (%s, %s, %s)'] [parameters: [{u'Paul': 'fname', u'Mun': 'lname', u'paulmun818@gmail.com': 'email'}]]
+127.0.0.1 - - [09/Sep/2016 19:17:35] "GET /friends?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:17:35] "GET /friends?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:17:35] "GET /friends?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:17:35] "GET /friends?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:17:35] "GET /friends?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:17:35] "GET /friends?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+  File "server.py", line 15
+    mysql.query_db('INSERT INTO friends (first_name, last_name, email) VALUES (:fname, :lname, :email),{fname:'fname', lname:'lname', email:'email'}')
+                                                                                                                   ^
+SyntaxError: invalid syntax
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 19:19:08] "POST /friends HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 15, in friendsAdd
+    mysql.query_db("INSERT INTO friends (first_name, last_name, email) VALUES (:fname, :lname, :email),{fname:'fname', lname:'lname', email:'email'}")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1078, in _execute_context
+    None, None)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1073, in _execute_context
+    context = constructor(dialect, self, conn, *args)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 554, in _init_compiled
+    grp, m in enumerate(parameters)]
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py", line 498, in construct_params
+    % bindparam.key)
+StatementError: (sqlalchemy.exc.InvalidRequestError) A value is required for bind parameter 'fname' [SQL: u"INSERT INTO friends (first_name, last_name, email) VALUES (%s, %s, %s),{fname:'fname', lname:'lname', email:'email'}"] [parameters: [{}]]
+127.0.0.1 - - [09/Sep/2016 19:19:08] "GET /friends?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:19:08] "GET /friends?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:19:08] "GET /friends?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:19:08] "GET /friends?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:19:08] "GET /friends?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:19:08] "GET /friends?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 19:20:56] "POST /friends HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 15, in friendsAdd
+    mysql.query_db("INSERT INTO friends (first_name, last_name, email) VALUES (:fname, :lname, :email)",{fname:'fname', lname:'lname', email:'email'})
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1078, in _execute_context
+    None, None)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1073, in _execute_context
+    context = constructor(dialect, self, conn, *args)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 554, in _init_compiled
+    grp, m in enumerate(parameters)]
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/compiler.py", line 479, in construct_params
+    % bindparam.key)
+StatementError: (sqlalchemy.exc.InvalidRequestError) A value is required for bind parameter 'fname' [SQL: u'INSERT INTO friends (first_name, last_name, email) VALUES (%s, %s, %s)'] [parameters: [{u'Paul': 'fname', u'Mun': 'lname', u'paulmun818@gmail.com': 'email'}]]
+127.0.0.1 - - [09/Sep/2016 19:20:56] "GET /friends?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:20:56] "GET /friends?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:20:56] "GET /friends?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:20:56] "GET /friends?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:20:56] "GET /friends?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:20:56] "GET /friends?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 19:21:36] "POST /friends HTTP/1.1" 302 -
+127.0.0.1 - - [09/Sep/2016 19:21:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:21:43] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 19:22:36] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 9, in index
+    return render_template("index.html", queryResult=queryResult)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/templates/index.html", line 25, in top-level template code
+    <p>{{o['fname']}}{{o['lname']}}{{o['email']}}</p><a href="/friends/{{o['id']/edit}}">edit</a>
+UndefinedError: 'edit' is undefined
+127.0.0.1 - - [09/Sep/2016 19:22:36] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:22:36] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:22:36] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:22:36] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:22:36] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:22:36] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:23:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:23:18] "GET /friends/1/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 19, in friendsEdit
+    return render_template("edit.html")
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 774, in _load_template
+    cache_key = self.loader.get_source(self, name)[1]
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 64, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: edit.html
+127.0.0.1 - - [09/Sep/2016 19:23:18] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:23:18] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:23:18] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:23:18] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:23:18] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:23:18] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:23:27] "POST /friends HTTP/1.1" 302 -
+127.0.0.1 - - [09/Sep/2016 19:23:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:24:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:24:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:24:21] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 19:24:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 22:31:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 22:31:49] "GET /friends/1/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 19, in friendsEdit
+    return render_template("edit.html")
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 127, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 851, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 812, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 774, in _load_template
+    cache_key = self.loader.get_source(self, name)[1]
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 64, in get_source
+    raise TemplateNotFound(template)
+TemplateNotFound: edit.html
+127.0.0.1 - - [09/Sep/2016 22:31:49] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 22:31:49] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 22:31:49] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 22:31:49] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 22:31:49] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 22:41:15] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:04:13] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:04:17] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:04:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:04:23] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:04:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:04:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:04:26] "GET /friends/1/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:04:34] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:04:36] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:04:58] "GET /friends/1/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:08:55] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:10:37] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:10:43] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:10:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:10:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:11:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:12:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:13:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:13:54] "GET /friends/1/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:14:28] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:14:30] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:15:43] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:15:44] "GET /friends/1/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:15:55] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:16:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:16:03] "GET /friends/1/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:16:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:16:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:16:21] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:18:28] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:18:32] "GET /friends/2/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:19:58] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 19, in friendsEdit
+    print mysql.query_deb('SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==:friendId',{"friendId":friendId})
+AttributeError: 'MySQLConnection' object has no attribute 'query_deb'
+127.0.0.1 - - [09/Sep/2016 23:19:58] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:19:58] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:19:58] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:19:58] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:19:58] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:19:58] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:20:32] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 19, in friendsEdit
+    print mysql.query_deb('SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==friendId')
+AttributeError: 'MySQLConnection' object has no attribute 'query_deb'
+127.0.0.1 - - [09/Sep/2016 23:20:32] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:20:32] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:20:32] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:20:32] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:20:32] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:20:42] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 19, in friendsEdit
+    print mysql.query_db('SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==friendId')
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (_mysql_exceptions.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==friendId' at line 1") [SQL: u'SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==friendId']
+127.0.0.1 - - [09/Sep/2016 23:20:42] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:20:42] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:20:42] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:20:42] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:20:42] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:21:04] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 19, in friendsEdit
+    print mysql.query_db('SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==:friendId',{"friendId":friendId})
+NameError: global name 'friendId' is not defined
+127.0.0.1 - - [09/Sep/2016 23:21:04] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:21:04] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:21:04] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:21:04] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:21:04] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:21:34] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 19, in friendsEdit
+    print mysql.query_db('SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==:friend',{"friend":friend})
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (_mysql_exceptions.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=='2'' at line 1") [SQL: u'SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==%s'] [parameters: (u'2',)]
+127.0.0.1 - - [09/Sep/2016 23:21:34] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:21:35] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:21:35] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:21:35] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:21:35] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:21:56] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 19, in friendsEdit
+    print mysql.query_db('SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==:friend',{'friend':friend})
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (_mysql_exceptions.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=='2'' at line 1") [SQL: u'SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==%s'] [parameters: (u'2',)]
+127.0.0.1 - - [09/Sep/2016 23:21:57] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:21:57] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:21:57] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:21:57] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:21:57] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:24:22] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 19, in friendsEdit
+    print mysql.query_db('SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==:friend',{'friend':friend})
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (_mysql_exceptions.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=='2'' at line 1") [SQL: u'SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==%s'] [parameters: (u'2',)]
+127.0.0.1 - - [09/Sep/2016 23:24:22] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:24:22] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:24:22] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:24:22] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:24:22] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+  File "server.py", line 19
+    print mysql.query_db('SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==:friend',{'friend':<friend>})
+                                                                                                                                                    ^
+SyntaxError: invalid syntax
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python  File "server.py", line 19
+    print mysql.query_db('SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==:friend',{'friend':<friend>})
+                                                                                                                                                    ^
+SyntaxError: invalid syntax
+[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;31m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:25:33] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 19, in friendsEdit
+    print mysql.query_db('SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==:friend',{'friend':friend})
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (_mysql_exceptions.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=='2'' at line 1") [SQL: u'SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==%s'] [parameters: (u'2',)]
+127.0.0.1 - - [09/Sep/2016 23:25:33] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:25:33] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:25:33] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:25:34] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:25:34] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:26:45] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 20, in friendsEdit
+    print mysql.query_db('SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==:friendNum',{'friendNum':friendNum})
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (_mysql_exceptions.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=='2'' at line 1") [SQL: u'SELECT friends.id, friends.first_name, friends.last_name, friends.email FROM friends WHERE friends.id==%s'] [parameters: (u'2',)]
+127.0.0.1 - - [09/Sep/2016 23:26:45] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:26:45] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:26:45] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:26:45] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:26:45] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:35:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:35:54] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:36:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:36:26] "GET /friends/1/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 20, in friendsEdit
+    print mysql.query_db('SELECT * FROM friends WHERE friends.id==:friendNum',{'friendNum':friendNum})
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+ProgrammingError: (_mysql_exceptions.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=='1'' at line 1") [SQL: u'SELECT * FROM friends WHERE friends.id==%s'] [parameters: (u'1',)]
+127.0.0.1 - - [09/Sep/2016 23:36:26] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:36:26] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:36:26] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:36:26] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:36:26] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+[{u'first_name': u'Paul', u'last_name': u'Mun', u'id': 1L, u'email': u'paulmun818@gmail.com'}]
+127.0.0.1 - - [09/Sep/2016 23:39:56] "GET /friends/1/edit HTTP/1.1" 200 -
+[{u'first_name': u'Paul', u'last_name': u'Mun', u'id': 1L, u'email': u'paulmun818@gmail.com'}]
+127.0.0.1 - - [09/Sep/2016 23:40:14] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:40:15] "POST /friends HTTP/1.1" 302 -
+127.0.0.1 - - [09/Sep/2016 23:40:15] "GET / HTTP/1.1" 200 -
+[{u'first_name': u'paul', u'last_name': u'Mun', u'id': 2L, u'email': u'paulmun818@gmail.com'}]
+127.0.0.1 - - [09/Sep/2016 23:40:17] "GET /friends/2/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:41:22] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:41:46] "GET /friends/2/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [09/Sep/2016 23:42:56] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 21, in friendsEdit
+    request.form['fName']=selectFriend['first_name']
+TypeError: list indices must be integers, not str
+127.0.0.1 - - [09/Sep/2016 23:42:57] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:42:57] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:42:57] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:42:57] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:42:57] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+[{u'first_name': u'paul', u'last_name': u'Mun', u'id': 2L, u'email': u'paulmun818@gmail.com'}]
+127.0.0.1 - - [09/Sep/2016 23:43:20] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 22, in friendsEdit
+    request.form['fName']=selectFriend['first_name']
+TypeError: list indices must be integers, not str
+127.0.0.1 - - [09/Sep/2016 23:43:20] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:43:20] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:43:20] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:43:21] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:43:21] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+[{u'first_name': u'paul', u'last_name': u'Mun', u'id': 2L, u'email': u'paulmun818@gmail.com'}]
+127.0.0.1 - - [09/Sep/2016 23:43:26] "GET /friends/2/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+[{u'first_name': u'paul', u'last_name': u'Mun', u'id': 2L, u'email': u'paulmun818@gmail.com'}]
+127.0.0.1 - - [09/Sep/2016 23:44:48] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 22, in friendsEdit
+    request.form['fName']=selectFriend[0]['first_name']
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/datastructures.py", line 182, in __setitem__
+    is_immutable(self)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/datastructures.py", line 28, in is_immutable
+    raise TypeError('%r objects are immutable' % self.__class__.__name__)
+TypeError: 'ImmutableMultiDict' objects are immutable
+127.0.0.1 - - [09/Sep/2016 23:44:48] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:44:48] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:44:48] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:44:49] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:44:49] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[{u'first_name': u'paul', u'last_name': u'Mun', u'id': 2L, u'email': u'paulmun818@gmail.com'}]
+127.0.0.1 - - [09/Sep/2016 23:50:32] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 22, in friendsEdit
+    request.form['fName']=selectFriend[0]['first_name']
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/datastructures.py", line 182, in __setitem__
+    is_immutable(self)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/datastructures.py", line 28, in is_immutable
+    raise TypeError('%r objects are immutable' % self.__class__.__name__)
+TypeError: 'ImmutableMultiDict' objects are immutable
+127.0.0.1 - - [09/Sep/2016 23:50:32] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:50:32] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:50:32] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:50:32] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:50:32] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+[{u'first_name': u'paul', u'last_name': u'Mun', u'id': 2L, u'email': u'paulmun818@gmail.com'}]
+127.0.0.1 - - [09/Sep/2016 23:51:21] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 22, in friendsEdit
+    return render_template("edit.html")
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/templates/edit.html", line 14, in top-level template code
+    <form action="/friends/{{selectFriend[0]['id']}}" method="POST">
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 389, in getitem
+    return obj[argument]
+UndefinedError: 'selectFriend' is undefined
+127.0.0.1 - - [09/Sep/2016 23:51:21] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:51:21] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:51:21] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:51:21] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [09/Sep/2016 23:51:21] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[{u'first_name': u'paul', u'last_name': u'Mun', u'id': 2L, u'email': u'paulmun818@gmail.com'}]
+127.0.0.1 - - [10/Sep/2016 00:03:32] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 22, in friendsEdit
+    return render_template("edit.html")
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/templates/edit.html", line 15, in top-level template code
+    <form action="/friends/{{selectFriend[0]['id']}}" method="POST">
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 389, in getitem
+    return obj[argument]
+UndefinedError: 'selectFriend' is undefined
+127.0.0.1 - - [10/Sep/2016 00:03:32] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:03:32] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:03:32] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:03:32] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:03:32] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[{u'first_name': u'paul', u'last_name': u'Mun', u'id': 2L, u'email': u'paulmun818@gmail.com'}]
+127.0.0.1 - - [10/Sep/2016 00:03:48] "GET /friends/2/edit HTTP/1.1" 200 -
+[{u'first_name': u'paul', u'last_name': u'Mun', u'id': 2L, u'email': u'paulmun818@gmail.com'}]
+127.0.0.1 - - [10/Sep/2016 00:04:25] "GET /friends/2/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+{u'first_name': u'paul', u'last_name': u'Mun', u'id': 2L, u'email': u'paulmun818@gmail.com'}
+127.0.0.1 - - [10/Sep/2016 00:05:25] "GET /friends/2/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+2
+127.0.0.1 - - [10/Sep/2016 00:05:47] "GET /friends/2/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:06:40] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:06:53] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:07:42] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 22, in friendsEdit
+    return render_template("edit.html")
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/templates/edit.html", line 14, in top-level template code
+    <form action="/friends/{{selectFriendId[0]['id']}}" method="POST">
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 389, in getitem
+    return obj[argument]
+UndefinedError: 'selectFriendId' is undefined
+127.0.0.1 - - [10/Sep/2016 00:07:42] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:07:42] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:07:42] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:07:42] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:07:42] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:08:02] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 22, in friendsEdit
+    return render_template("edit.html")
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/templates/edit.html", line 14, in top-level template code
+    <form action="/friends/{{selectFriend[0]['id']}}" method="POST">
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 389, in getitem
+    return obj[argument]
+UndefinedError: 'selectFriend' is undefined
+127.0.0.1 - - [10/Sep/2016 00:08:02] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:08:02] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:08:02] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:08:03] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:08:03] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:08:22] "GET /friends/2/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:08:35] "GET /friends/2/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:14:08] "GET /friends/2/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:16:18] "GET /friends/2/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:21:02] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 21, in friendsEdit
+    request.form['fName']=selectFriend[0]['first_name']
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/datastructures.py", line 182, in __setitem__
+    is_immutable(self)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/datastructures.py", line 28, in is_immutable
+    raise TypeError('%r objects are immutable' % self.__class__.__name__)
+TypeError: 'ImmutableMultiDict' objects are immutable
+127.0.0.1 - - [10/Sep/2016 00:21:02] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:21:02] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:21:02] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:21:02] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:21:02] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:21:23] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 21, in friendsEdit
+    form['fName']=selectFriend[0]['first_name']
+NameError: global name 'form' is not defined
+127.0.0.1 - - [10/Sep/2016 00:21:24] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:21:24] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:21:24] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:21:24] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:21:24] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:22:56] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:23:24] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:24:27] "GET /friends/2/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:26:02] "GET /friends/2/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:26:09] "GET /friends/2/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:28:51] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:28:55] "POST /friends/2 HTTP/1.1" 405 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:29:14] "POST /friends/2 HTTP/1.1" 405 -
+127.0.0.1 - - [10/Sep/2016 00:29:17] "POST /friends/2 HTTP/1.1" 405 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:29:35] "POST /friends/2 HTTP/1.1" 405 -
+127.0.0.1 - - [10/Sep/2016 00:29:36] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:29:37] "POST /friends/2 HTTP/1.1" 405 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:30:06] "POST /friends/2 HTTP/1.1" 405 -
+127.0.0.1 - - [10/Sep/2016 00:30:07] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:30:09] "POST /friends/2 HTTP/1.1" 405 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:31:23] "POST /friends/2 HTTP/1.1" 405 -
+127.0.0.1 - - [10/Sep/2016 00:31:24] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:31:26] "POST /friends/2 HTTP/1.1" 405 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:32:48] "POST /friends/2 HTTP/1.1" 405 -
+127.0.0.1 - - [10/Sep/2016 00:32:49] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:32:51] "POST /friends/2 HTTP/1.1" 405 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:34:48] "POST /friends/2 HTTP/1.1" 405 -
+127.0.0.1 - - [10/Sep/2016 00:34:48] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:34:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:34:51] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:34:56] "POST /friends/1 HTTP/1.1" 405 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:36:33] "POST /friends/1 HTTP/1.1" 405 -
+127.0.0.1 - - [10/Sep/2016 00:36:34] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:36:39] "POST /friends/1 HTTP/1.1" 405 -
+127.0.0.1 - - [10/Sep/2016 00:39:49] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:39:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:39:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:39:56] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:40:04] "POST /friends/2 HTTP/1.1" 405 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:43:55] "POST /friends/2 HTTP/1.1" 405 -
+127.0.0.1 - - [10/Sep/2016 00:43:56] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:44:02] "POST /friends/2 HTTP/1.1" 405 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:51:27] "POST /friends/2 HTTP/1.1" 405 -
+127.0.0.1 - - [10/Sep/2016 00:51:28] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:51:32] "POST /friends/2 HTTP/1.1" 405 -
+127.0.0.1 - - [10/Sep/2016 00:51:37] "GET /friends/2/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:54:16] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:54:21] "POST /friends/2 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 20, in friendsPost
+    mysql.query_db("UPDATE friends SET first_name = :fname, last_name = :lname, email = :email WHERE id = friendId",{'fname':request.form['fName'], 'lname':request.form['lName'], 'email':request.form['email']})
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (_mysql_exceptions.OperationalError) (1054, "Unknown column 'friendId' in 'where clause'") [SQL: u'UPDATE friends SET first_name = %s, last_name = %s, email = %s WHERE id = friendId'] [parameters: (u'Bob', u'Mun', u'paulmun818@gmail.com')]
+127.0.0.1 - - [10/Sep/2016 00:54:21] "GET /friends/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:54:21] "GET /friends/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:54:21] "GET /friends/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:54:21] "GET /friends/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:54:21] "GET /friends/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:54:21] "GET /friends/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:55:16] "POST /friends/2 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 20, in friendsPost
+    mysql.query_db("UPDATE friends SET first_name = :fname, last_name = :lname, email = :email WHERE id = :friendId",{'fname':request.form['fName'], 'lname':request.form['lName'], 'email':request.form['email', 'friendId':friendId]})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/datastructures.py", line 402, in __getitem__
+    if key in self:
+TypeError: unhashable type
+127.0.0.1 - - [10/Sep/2016 00:55:17] "GET /friends/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:55:17] "GET /friends/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:55:17] "GET /friends/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:55:17] "GET /friends/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:55:17] "GET /friends/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+2
+127.0.0.1 - - [10/Sep/2016 00:56:37] "POST /friends/2 HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 21, in friendsPost
+    mysql.query_db("UPDATE friends SET first_name = :fname, last_name = :lname, email = :email WHERE id = :friendId",{'fname':request.form['fName'], 'lname':request.form['lName'], 'email':request.form['email', 'friendId':friendId]})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/werkzeug/datastructures.py", line 402, in __getitem__
+    if key in self:
+TypeError: unhashable type
+127.0.0.1 - - [10/Sep/2016 00:56:38] "GET /friends/2?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:56:38] "GET /friends/2?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:56:38] "GET /friends/2?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:56:38] "GET /friends/2?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:56:38] "GET /friends/2?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+2
+127.0.0.1 - - [10/Sep/2016 00:57:01] "POST /friends/2 HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 00:57:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 00:57:07] "GET /friends/1/edit HTTP/1.1" 200 -
+1
+127.0.0.1 - - [10/Sep/2016 00:57:16] "POST /friends/1 HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 00:57:16] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 00:58:05] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 01:05:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:05:51] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:05:54] "POST /friends/1 HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 01:05:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:05:59] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:06:00] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:06:05] "GET /friends/1/edit HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 01:06:08] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:06:20] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:06:21] "GET /friends/1 HTTP/1.1" 405 -
+127.0.0.1 - - [10/Sep/2016 01:08:30] "GET /friends/1 HTTP/1.1" 405 -
+127.0.0.1 - - [10/Sep/2016 01:08:31] "GET /friends/1/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 17, in friendsEdit
+    return render_template("edit.html",selectFriend=selectFriend)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/templates/edit.html", line 20, in top-level template code
+    <a href="/friends/{{selectFriend[0]['id']/delete}}">Delete</a>
+UndefinedError: 'delete' is undefined
+127.0.0.1 - - [10/Sep/2016 01:08:31] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:31] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:31] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:32] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:32] "GET /friends/1/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:35] "GET /friends/2/edit HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 17, in friendsEdit
+    return render_template("edit.html",selectFriend=selectFriend)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 128, in render_template
+    context, ctx.app)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/templating.py", line 110, in _render
+    rv = template.render(context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/jinja2/environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/templates/edit.html", line 20, in top-level template code
+    <a href="/friends/{{selectFriend[0]['id']/delete}}">Delete</a>
+UndefinedError: 'delete' is undefined
+127.0.0.1 - - [10/Sep/2016 01:08:35] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:35] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:35] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:35] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:36] "GET /friends/2/edit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:55] "GET /friends/2/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:57] "GET /friends/2/delete HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 24, in friendsDelete
+    mysql.query_db("DELETE FROM friends WHERE id=friend")
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (_mysql_exceptions.OperationalError) (1054, "Unknown column 'friend' in 'where clause'") [SQL: u'DELETE FROM friends WHERE id=friend']
+127.0.0.1 - - [10/Sep/2016 01:08:57] "GET /friends/2/delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:57] "GET /friends/2/delete?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:57] "GET /friends/2/delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:57] "GET /friends/2/delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:57] "GET /friends/2/delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:08:57] "GET /friends/2/delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 01:10:07] "GET /friends/2/delete HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 01:10:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:10:10] "GET /friends/1/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:10:12] "GET /friends/1/delete HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 01:10:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:10:13] "GET /friends/3/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:10:14] "GET /friends/3/delete HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 01:10:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 01:10:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 10:52:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 10:54:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 10:56:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 10:56:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:00:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:01:00] "POST /friends HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 11:01:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:01:06] "POST /friends HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 11:01:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:01:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:01:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:01:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:02:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:03:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:03:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:09:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:10:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:11:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:11:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:11:32] "POST /friends HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 11:11:32] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:11:40] "POST /friends HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 11:11:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:11:43] "POST /friends HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 11:11:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:11:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:12:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:12:12] "GET / HTTP/1.1" 200 -
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+ * Detected change in '/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 11:21:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:24:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:25:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:25:25] "POST /friends HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 12, in friendsAdd
+    mysql.query_db("INSERT INTO friends (first_name, last_name, email, created_at) VALUES (:fname, :lname, :email, NOW())",{'fname':request.form['fName'], 'lname':request.form['lName'], 'email':request.form['email']})
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (_mysql_exceptions.OperationalError) (1054, "Unknown column 'created_at' in 'field list'") [SQL: u'INSERT INTO friends (first_name, last_name, email, created_at) VALUES (%s, %s, %s, NOW())'] [parameters: (u'Paul', u'Mun', u'as;ldkfj;alsdkjjf')]
+127.0.0.1 - - [10/Sep/2016 11:25:25] "GET /friends?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:25:25] "GET /friends?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:25:25] "GET /friends?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:25:25] "GET /friends?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:25:25] "GET /friends?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:25:26] "GET /friends?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:32:22] "POST /friends HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 12, in friendsAdd
+    mysql.query_db("INSERT INTO friends (first_name, last_name, email, created_at) VALUES (:fname, :lname, :email, NOW())",{'fname':request.form['fName'], 'lname':request.form['lName'], 'email':request.form['email']})
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (_mysql_exceptions.OperationalError) (1054, "Unknown column 'created_at' in 'field list'") [SQL: u'INSERT INTO friends (first_name, last_name, email, created_at) VALUES (%s, %s, %s, NOW())'] [parameters: (u'Paul', u'Mun', u'as;ldkfj;alsdkjjf')]
+127.0.0.1 - - [10/Sep/2016 11:32:22] "GET /friends?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:32:22] "GET /friends?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:32:22] "GET /friends?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:32:22] "GET /friends?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:32:22] "GET /friends?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:32:24] "POST /friends HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1836, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1820, in wsgi_app
+    response = self.make_response(self.handle_exception(e))
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1403, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/server.py", line 12, in friendsAdd
+    mysql.query_db("INSERT INTO friends (first_name, last_name, email, created_at) VALUES (:fname, :lname, :email, NOW())",{'fname':request.form['fName'], 'lname':request.form['lName'], 'email':request.form['email']})
+  File "/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends/mysqlconnection.py", line 22, in query_db
+    result = self.db.session.execute(text(query), data)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/scoping.py", line 157, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/orm/session.py", line 1034, in execute
+    bind, close_with_result=True).execute(clause, params or {})
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1146, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/util/compat.py", line 202, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/base.py", line 1139, in _execute_context
+    context)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/sqlalchemy/engine/default.py", line 450, in do_execute
+    cursor.execute(statement, parameters)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/cursors.py", line 205, in execute
+    self.errorhandler(self, exc, value)
+  File "/Users/paul/git_projects/codingdojo/python/myEnvironments/py2FlaskEnv/lib/python2.7/site-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+OperationalError: (_mysql_exceptions.OperationalError) (1054, "Unknown column 'created_at' in 'field list'") [SQL: u'INSERT INTO friends (first_name, last_name, email, created_at) VALUES (%s, %s, %s, NOW())'] [parameters: (u'Paul', u'Mun', u'as;ldkfj;alsdkjjf')]
+127.0.0.1 - - [10/Sep/2016 11:32:24] "GET /friends?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:32:24] "GET /friends?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:32:24] "GET /friends?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:32:24] "GET /friends?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:32:24] "GET /friends?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+^C[1m[7m%[27m[1m[0m                                                                                                ]2;paul@Pauls-MBP]1;..l/fullFriends]7;file://Pauls-MBP/Users/paul/git_projects/codingdojo/python/flaskMySql/fullFriends[0m[27m[24m[J(py2FlaskEnv) [01;32m➜  [36mfullFriends[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=python server.py[?1l>
+]2;python server.py]1;python * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger pin code: 163-004-223
+127.0.0.1 - - [10/Sep/2016 11:33:13] "POST /friends HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 11:33:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:33:27] "POST /friends HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 11:33:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:33:35] "POST /friends HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 11:33:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:33:38] "POST /friends HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 11:33:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:34:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:36:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:36:53] "POST /friends HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 11:36:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:44:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:44:14] "POST /friends HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 11:44:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:45:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:47:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:47:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:55:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:55:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:55:38] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:57:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:57:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:58:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:58:38] "GET /friends/14/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 11:58:40] "GET /friends/14/delete HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 11:58:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:00:20] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:00:22] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:00:24] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:00:39] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:01:29] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:02:18] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:02:40] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:02:52] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:02:59] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:03:26] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:03:49] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:04:29] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:04:35] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:04:41] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:04:51] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:04:56] "GET /friends/4/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:05:01] "GET /friends/4/delete HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 12:05:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:05:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:05:11] "GET /friends/7/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:05:12] "GET /friends/7/delete HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 12:05:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:06:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:06:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:06:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:07:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:07:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:07:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:07:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:07:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:07:50] "GET /friends/8/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:07:51] "GET /friends/8/delete HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 12:07:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:07:52] "GET /friends/5/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:07:53] "GET /friends/5/delete HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 12:07:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:07:54] "GET /friends/9/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:07:56] "GET /friends/9/delete HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 12:07:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:08:00] "GET /friends/6/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:08:01] "GET /friends/6/delete HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 12:08:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:08:02] "GET /friends/10/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:08:03] "GET /friends/10/delete HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 12:08:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:08:05] "GET /friends/11/edit HTTP/1.1" 200 -
+127.0.0.1 - - [10/Sep/2016 12:08:06] "GET /friends/11/delete HTTP/1.1" 302 -
+127.0.0.1 - - [10/Sep/2016 12:08:06] "GET / HTTP/1.1" 200 -
