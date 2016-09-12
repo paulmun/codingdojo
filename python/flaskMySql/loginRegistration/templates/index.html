@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login and Registration</title>
+</head>
+<body>
+	<h3>Register</h3>
+	<form action="/register" method="POST">
+	{% with flashfname = get_flashed_messages(category_filter=['flashfname']) %}
+  		{% if flashfname %}
+			{% for message in flashfname %}
+				<p>{{message}}</p>
+			{% endfor %}
+		{% endif %}
+	{% endwith %}
+		<input type="text" name="fname" value="{{fname}}" placeholder="First Name">
+	{% with flashlname = get_flashed_messages(category_filter=['flashlname']) %}
+  		{% if flashlname %}
+			{% for message in flashlname %}
+				<p>{{message}}</p>
+			{% endfor %}
+		{% endif %}
+	{% endwith %}
+		<input type="text" name="lname" value="{{lname}}" placeholder="Last Name">
+	{% with flashemail = get_flashed_messages(category_filter=['flashemail']) %}
+  		{% if flashemail %}
+			{% for message in flashemail %}
+				<p>{{message}}</p>
+			{% endfor %}
+		{% endif %}
+	{% endwith %}
+		<input type="text" name="email" value="{{email}}" placeholder="Email">
+	{% with flashpass = get_flashed_messages(category_filter=['flashpass']) %}
+  		{% if flashpass %}
+			{% for message in flashpass %}
+				<p>{{message}}</p>
+			{% endfor %}
+		{% endif %}
+	{% endwith %}
+		<input type="text" name="pass" placeholder="Password">
+	{% with flashcpass = get_flashed_messages(category_filter=['flashcpass']) %}
+  		{% if flashcpass %}
+			{% for message in flashcpass %}
+				<p>{{message}}</p>
+			{% endfor %}
+		{% endif %}
+	{% endwith %}
+		<input type="text" name="cPass" placeholder="Confirm Password">
+		<input type="submit" value="Submit">
+	</form>
+	<p>Already have an account?</p>
+	<form action="/login" method = "POST">
+	{% with flashloginemail = get_flashed_messages(category_filter=['flashloginemail']) %}
+  		{% if flashloginemail %}
+			{% for message in flashloginemail %}
+				<p>{{message}}</p>
+			{% endfor %}
+		{% endif %}
+	{% endwith %}
+		<input type="text" name="email">
+	{% with flashloginpass = get_flashed_messages(category_filter=['flashloginpass']) %}
+  		{% if flashloginpass %}
+			{% for message in flashloginpass %}
+				<p>{{message}}</p>
+			{% endfor %}
+		{% endif %}
+	{% endwith %}
+		<input type="text" name="pass">
+		<input type="submit" value="Log In">
+	</form> 
+</body>
+</html>
