@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Wall</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}"
+</head>
+<body>
+	<h2 class="title">Welcome to The Wall</h2>
+	<div id="defaultButtons" class="row">
+		<a class="col s3 offset-s2 waves-effect waves-light btn" href='' id="register">Register</a>
+		<a class="col s3 offset-s2 waves-effect waves-light btn" href='' id="login">Login</a>
+	</div>
+	<div class="row">	
+		<form id="regForm" class="col s6 offset-s3" action="/register" method="POST">
+		{% with flashfname = get_flashed_messages(category_filter=['flashfname']) %}
+	  		{% if flashfname %}
+				{% for message in flashfname %}
+					<p>{{message}}</p>
+				{% endfor %}
+			{% endif %}
+		{% endwith %}
+		<div class="input-field col s6">	
+			<input id="fname" type="text" name="fname" value="{{fname}}">
+			<label for="fname">First Name</label>
+		</div>
+		{% with flashlname = get_flashed_messages(category_filter=['flashlname']) %}
+	  		{% if flashlname %}
+				{% for message in flashlname %}
+					<p>{{message}}</p>
+				{% endfor %}
+			{% endif %}
+		{% endwith %}
+		<div class="input-field col s6">
+			<input id="lname" type="text" name="lname" value="{{lname}}">
+			<label for="lname">Last Name</label>
+		</div>
+		{% with flashemail = get_flashed_messages(category_filter=['flashemail']) %}
+	  		{% if flashemail %}
+				{% for message in flashemail %}
+					<p>{{message}}</p>
+				{% endfor %}
+			{% endif %}
+		{% endwith %}
+		<div class="input-field col s12">
+			<input id="regEmail" type="text" name="email" value="{{email}}">
+			<label for="regEmail">Email</label>
+		</div>
+		{% with flashpass = get_flashed_messages(category_filter=['flashpass']) %}
+	  		{% if flashpass %}
+				{% for message in flashpass %}
+					<p>{{message}}</p>
+				{% endfor %}
+			{% endif %}
+		{% endwith %}
+		<div class="input-field col s12">
+			<input id="pass" type="text" name="pass">
+			<label for="pass">Password</label>
+		</div>
+		{% with flashcpass = get_flashed_messages(category_filter=['flashcpass']) %}
+	  		{% if flashcpass %}
+				{% for message in flashcpass %}
+					<p>{{message}}</p>
+				{% endfor %}
+			{% endif %}
+		{% endwith %}
+		<div class="input-field col s12">
+			<input id="cpass" type="text" name="cPass">
+			<label for="cpass">Confirm Password</label>
+		</div>
+			<a class="col s4 offset-s1 waves-effect waves-light btn" href='' id="regBack">Back</a>
+			<input class="col s4 offset-s2 waves-effect waves-light btn" type="submit" value="Submit">
+		</form>
+		
+		<form class="col s6 offset-s3" id="logForm" action="/login" method = "POST">
+		{% with flashloginemail = get_flashed_messages(category_filter=['flashloginemail']) %}
+	  		{% if flashloginemail %}
+				{% for message in flashloginemail %}
+					<p>{{message}}</p>
+				{% endfor %}
+			{% endif %}
+		{% endwith %}
+		<div class="input-field col s12">
+			<input id="logemail" type="text" name="email">
+			<label for="logemail">Email</label>
+		</div>
+		{% with flashloginpass = get_flashed_messages(category_filter=['flashloginpass']) %}
+	  		{% if flashloginpass %}
+				{% for message in flashloginpass %}
+					<p>{{message}}</p>
+				{% endfor %}
+			{% endif %}
+		{% endwith %}
+			<div class="input-field col s12">
+				<input id="logpass" type="text" name="pass">
+				<label for="logpass">Password</label>
+			</div>
+				<a class="col s4 offset-s1 waves-effect waves-light btn" href='' id="logBack">Back</a>
+				<input class="col s4 offset-s2 waves-effect waves-light btn" type="submit" value="Log In">
+		</form> 
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  	<script src="{{ url_for('static', filename='js/materialize.min.js') }}"></script>
+  	<script src="{{ url_for('static', filename='js/wall.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+.title {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-top: 70px;
+    color: black;
+}
+
+#defaultButtons{
+	margin-top: 120px;
+}
+
+#regForm, #logForm{
+	display: none;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+}
+
+h2{
+	margin: 0 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	color: white;
+	font-size: 30px;
+}
+
+textarea{
+	max-width: 75%;
+	height: 100px;
+	margin-bottom: 15px;
+}
+
+#postMessage p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.userName {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding-left: 0 !important;
+
+}
+
+.content {
+	border-bottom: 1px solid black;
+	padding: 25px 0 !important;
+	margin:0;
+}
+
+.commContent{
+	border-bottom: 1px solid black;
+	padding-bottom: 20px !important;
+}

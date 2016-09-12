@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Wall</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}"
+</head>
+<body>
+	<header class="row">
+		<h2 class="col s2">The Wall</h2>
+		<a class="col s1 push-s9 waves-effect waves-light btn" href="/logout">Log Out</a>
+	</header>
+	
+	<div class="row" id="postMessage">
+		<p class="col s6 push-s1">Post a Message</p>
+		<form class="row" action="/message" method = "post">
+			<textarea class="col s9 push-s1" name = "msg"></textarea>
+			<input class="col s2 offset-s8 waves-effect waves-light btn" type="submit" value = "Post Message">
+		</form>
+	</div>
+
+	<div class="message row">
+		{% for message in messages %}
+
+			{% for user in users %}
+				{% if user['id'] == message['users_id']%}
+					<p class="userName col s2 push-s1">{{user['first_name']}} {{user['last_name']}}</p>
+				{% endif %}
+			{% endfor %}
+
+			<p class="col s2 push-s1">{{message['created_at']}}</p>
+			<p class="content col s9 push-s1">{{message['message']}}</p>
+			<div class="comments row">
+				{% for comment in comments %}
+					{% if comment['messages_id'] == message['id'] %}
+						{% for user in users %}
+							{% if user['id'] == comment['users_id'] %}
+								<p class="userName col s2 offset-s2">{{user['first_name']}} {{user['last_name']}}</p>
+							{% endif %}
+						{% endfor %}
+						<p class="col s2 push-s1">{{comment['created_at']}}</p>
+						<p class="commContent col s8 offset-s2">{{comment['comment']}}</p>
+					{% endif %}	
+				{% endfor %}
+			</div>
+
+			<form class="row" action="/comment" method = "post">
+				<textarea class="col s8 push-s2" name="cmnt"></textarea>
+				<input type="hidden" name = "messageId" value = "{{message['id']}}">
+				<input class="col s2 offset-s8 waves-effect waves-light btn" type="submit" value = "Post Comment">
+			</form>
+
+		{% endfor %}
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  	<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
