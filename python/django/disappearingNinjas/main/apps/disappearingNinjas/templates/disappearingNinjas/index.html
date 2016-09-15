@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Disappearing Ninjas</title>
+	{% load staticfiles %}
+</head>
+<body>
+	<h1>{{context.nothing}}</h1>
+	{% for k,v in context.items %}
+		<img src=" {% with 'disappearingNinjas/img/'|add:v as image_static %}
+  			{% static image_static %}
+		{% endwith %}">
+	{% endfor %}
+</body>
+</html>
