@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Book Reviewer</title>
+</head>
+<body>
+	<header>
+			<a href="{% url 'books:books_index' %}">Home</a>
+			<a href="{% url 'logreg:logreg_logout' %}">Logout</a>
+	</header>
+	<h2>{{ book.title }}</h2>
+	<p>Author: {{ book.author }}</p>
+
+	<div id="bookreviews">
+		{% for review in bookreviews %}{{review}}
+			<p>Rating: {{ review.rating }}</p>
+			<a href="{% url 'logreg:logreg_user' userID=review.user.id %}">{{ review.user.fname }}</a>
+			<p>says: {{ review.review }}</p>
+			<p>{{ review.created_at }}</p>
+			{% if request.session.user == review.user.user_id %}
+				<a href="{% url 'books:destroy' review_id=review.id %}"></a>
+			{% endif %}
+		{% endfor %}
+	</div>
+	
+	<form action="{% url 'books:addreview' bookID=book.id %}" method="post">
+		{% csrf_token %}
+		<p>Add a Review</p>
+		<input type="text" name="review">
+		<select name="rating">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+		</select> <p>stars.</p>
+		<input type="submit" value="Submit Review">
+	</form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Book Reviewer</title>
+</head>
+<body>
+	<header>
+	<h2>Welcome {{ user.fname }}!</h2>
+	<div id="headerRight">
+		<a href="{% url 'books:books_add' %}">Add Book and Review</a>
+		<a href="{% url 'logreg:logreg_logout' %}">Logout</a>
+	</div>
+	</header>
+	<div id="recentReviews">
+		<h2>Recent Book Reviews:</h2>
+		{% for review in reviews %}
+			<a href="{% url 'books:books_show' bookID=review.book.id %}"></a>
+			<p>Rating: {{ review.rating }}</p>
+			<a href="{% url 'logreg:logreg_user' userID=review.user.id %}">{{ review.user.fname }}</a>
+			<p>says: {{ review.review }}</p>
+			<p>{{ review.created_at }}</p>
+			{% if request.session.user == review.user.id %}
+				<a href="{% url 'books:destroyreview' reviewID=review.id %}"></a>
+			{% endif %}
+		{% endfor %}
+	</div>
+	<div id="otherBooks">
+		<h2>Other Books with Reviews:</h2>
+		{% for book in books %}
+			<a href="{% url 'books:books_show' bookID=book.id %}">{{book.title}}</a>
+		{% endfor %}
+	</div>
+</body>
+</html>
