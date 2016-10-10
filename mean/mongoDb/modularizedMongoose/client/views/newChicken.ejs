@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mongoose Dashboard</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type = "text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type = "text/javascript" src="/js/main.js"></script>
+</head>
+<body>
+	<form action="/chickens" method="post">
+		<input type="text" name="name">
+		<input type="number" name="age">
+		<select name="special">
+			<option value="true">True</option>
+			<option value="false">False</option>
+		</select>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>

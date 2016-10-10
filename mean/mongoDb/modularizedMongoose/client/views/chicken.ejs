@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mongoose Dashboard</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type = "text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type = "text/javascript" src="/js/main.js"></script>
+</head>
+<body>
+	<h2>Check out this Chicken</h2>
+	<table>
+		<th>
+			<tr>
+				<td>
+					Name
+				</td>
+				<td>
+					Age
+				</td>
+				<td>
+					Special?
+				</td>
+			</tr>
+		</th>
+		<tbody>
+			<tr>
+				<td>
+					<%= chicken.name %>
+				</td>
+				<td>
+					<%= chicken.age %>
+				</td>
+				<td>
+					<%= chicken.special %>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<a href="/chicken/<%= chicken._id %>/edit">Edit this Chicken</a>
+	<a href="/chickens/<%= chicken._id %>/destroy">Destroy this Chicken</a>
+</body>
+</html>

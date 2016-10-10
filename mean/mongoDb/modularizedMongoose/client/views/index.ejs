@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mongoose Dashboard</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type = "text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type = "text/javascript" src="/js/main.js"></script>
+</head>
+<body>
+	<table>
+		<th>
+			<tr>
+				<td>
+					<p>Name</p>
+				</td>
+				<td>
+					<p>Age</p>
+				</td>
+				<td>
+					<p>Special</p>
+				</td>
+			</tr>
+		</th>
+		<tbody>
+		<% for(i in chickens){ %>
+			<tr>
+				<td>
+					<a href="/chickens/<%= chickens[i]._id %>"><%= chickens[i].name %></a>
+				</td>
+				<td>
+					<p><%= chickens[i].age %></p>
+				</td>
+				<td>
+					<p><%= chickens[i].special %></p>
+				</td>
+				<td>
+					<a href="/chicken/<%= chickens[i]._id %>/edit">Edit</a>
+				</td>
+			</tr>
+		<% } %>
+		</tbody>
+	</table>
+	<a href="/chicken/new">Add a new Chicken</a>
+</body>
+</html>
