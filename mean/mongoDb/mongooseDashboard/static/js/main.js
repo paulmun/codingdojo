@@ -26,6 +26,7 @@ $(document).ready(function(){
 		e.preventDefault();
 		var data = {};
 		$(this).serializeArray().map(function(x) {data[x.name] = x.value; });
+			data[id] = ;
 		socket.emit('editChicken', data);
 		$(location).attr('href', '/');
 	});
