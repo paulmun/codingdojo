@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chicken Dashboard</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type = "text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type = "text/javascript" src="/js/main.js"></script>
+</head>
+<body>
+	<h2>Chicken Dashboard</h2>
+	<p>Look at all dem chickens!</p>
+	<table>
+		<thead>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Rabid?</th>
+		</thead>
+		<tbody id = "chickenList">			
+		</tbody>
+	</table>
+	<a href="/chicken/new">Create a new Chicken!</a>
+</body>
+</html>

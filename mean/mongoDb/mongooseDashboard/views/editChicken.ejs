@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chicken Dashboard</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type = "text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type = "text/javascript" src="/js/main.js"></script>
+</head>
+<body>
+	<h2>Edit This Chicken!</h2>
+	<form id="editChickenForm" action="/chicken/:id/submit" method="put">
+		<input type="text" name="name" placeholder="Name" value=''>
+		<input type="number" name="age" placeholder="Age" value=currChicken.age>
+		<p>Rabid?</p>
+		<select name="rabid">
+			<option value="true">True</option>
+			<option value="false">False</option>
+		</select>
+		<input type="submit" value="submit">
+	</form>
+</body>
+</html>
