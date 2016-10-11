@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Controlling Users</title>
+	<script src="./bower_components/angular/angular.min.js"></script>
+	<script>
+		var myAppModule = angular.module('myApp', []);
+
+		myAppModule.factory('productFactory', function(){
+			return{
+				products:[],
+				create:function(name, price, callback){
+					this.products.push({
+						productName: name,
+						productPrice: price,
+						productQty: 50
+					});
+					callback(this.products);
+				},
+				destroy:function(index,callback){
+					this.products.splice(index,1);
+					callback(this.products);
+				},
+				buy:function(index,callback){
+					if(this.products[index].productQty > 0){
+						this.products[index].productQty -=1;
+					}
+					callback(this.products);
+				},
+				sync: function(callback){
+					callback(this.products)
+				}
+			}
+		})
+
+		myAppModule.controller('mainController', ['$scope', 'productFactory', function($scope, productFactory){
+			$scope.products = [];
+			$scope.sync = function(products){
+				$scope.products = products;
+			}
+			productFactory.sync($scope.sync);
+
+			$scope.addProduct = function(){
+				productFactory.create($scope.productName, $scope.productPrice, $scope.sync
+				);
+				$scope.productName = '';
+				$scope.productPrice = '';
+			}
+
+			$scope.destroy = function(index){
+				productFactory.destroy(index, $scope.sync);
+			}
+		}]);
+
+		myAppModule.controller('shopController', ['$scope', 'productFactory', function($scope, productFactory){
+			$scope.products = [];
+
+			$scope.sync = function(products){
+				$scope.products = products;
+			}
+
+			productFactory.sync($scope.sync);
+
+			$scope.buy = function(index){
+				productFactory.buy(index, $scope.sync);
+			}
+
+		}]);
+
+	</script>
+</head>
+<body>
+	<div ng-controller="mainController">
+		<h2>Products Controller</h2>
+		<form>
+			<p>Product Name</p>
+			<input type="text" ng-model="productName">
+			<p>Product Price</p>
+			<input type="number" step=".01" ng-model="productPrice">
+			<input type="submit" value="Add Product" ng-click="addProduct()">
+		</form>
+		<table>
+			<tr>
+				<th>
+					Name
+				</th>
+				<th>
+					Price
+				</th>
+				<th>
+					Actions
+				</th>
+			</tr>
+			<tr ng-repeat="product in products track by $index">
+				<td>{{product.productName}}</td>
+				<td>{{product.productPrice}}</td>
+				<td><input type="submit" ng-click="destroy($index)" value ="Delete Product"></td>	
+			</tr>
+		</table>
+	</div>
+	<div ng-controller="shopController">
+		<h2>Orders Controller</h2>
+		<table>
+			<tr>
+				<th>
+					Name
+				</th>
+				<th>
+					Price
+				</th>
+				<th>
+					Qty Available
+				</th>
+				<th>
+					Actions
+				</th>
+			</tr>
+			<tr ng-repeat="product in products track by $index">
+				<td>{{product.productName}}</td>
+				<td>{{product.productPrice}}</td>
+				<td>{{product.productQty}}</td>
+				<td><input type="submit" ng-click="buy($index)" value ="Buy"></td>	
+			</tr>
+		</table>
+	</div>
+
+</body>
+</html>
