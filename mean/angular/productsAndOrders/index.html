@@ -10,46 +10,44 @@
 		myAppModule.factory('productFactory', function(){
 			return{
 				products:[],
-				create:function(name, price, callback){
+				create:function(name, price){
 					this.products.push({
 						productName: name,
 						productPrice: price,
 						productQty: 50
 					});
-					callback(this.products);
 				},
-				destroy:function(index,callback){
+				destroy:function(index){
 					this.products.splice(index,1);
-					callback(this.products);
 				},
-				buy:function(index,callback){
+				buy:function(index){
 					if(this.products[index].productQty > 0){
 						this.products[index].productQty -=1;
 					}
-					callback(this.products);
 				},
 				sync: function(callback){
-					callback(this.products)
+					callback(this.products);
 				}
 			}
 		})
 
 		myAppModule.controller('mainController', ['$scope', 'productFactory', function($scope, productFactory){
 			$scope.products = [];
+
 			$scope.sync = function(products){
 				$scope.products = products;
 			}
+
 			productFactory.sync($scope.sync);
 
 			$scope.addProduct = function(){
-				productFactory.create($scope.productName, $scope.productPrice, $scope.sync
-				);
+				productFactory.create($scope.productName, $scope.productPrice);
 				$scope.productName = '';
 				$scope.productPrice = '';
 			}
 
 			$scope.destroy = function(index){
-				productFactory.destroy(index, $scope.sync);
+				productFactory.destroy(index);
 			}
 		}]);
 
@@ -63,7 +61,7 @@
 			productFactory.sync($scope.sync);
 
 			$scope.buy = function(index){
-				productFactory.buy(index, $scope.sync);
+				productFactory.buy(index);
 			}
 
 		}]);
