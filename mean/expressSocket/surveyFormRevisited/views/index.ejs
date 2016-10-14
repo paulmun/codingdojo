@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Survey Form Revisited</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type = "text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type = "text/javascript" src="/js/main.js"></script>
+</head>
+<body>
+	<div id="name"></div>
+	<form action="/result" method="post" >
+		<input type="text" name="name">
+		<select name="location">
+			<option value="Mountain View">Mountain View</option>
+			<option value="Seattle">Seattle</option>
+			<option value="Chicago">Chicago</option>
+		</select>
+		<select name="language">
+			<option value="javaScript">javaScript</option>
+			<option value="Python">Python</option>
+			<option value="Swift">Swift</option>
+		</select>
+		<textarea name="comment" id="" cols="60" rows="10"></textarea>
+		<input id="submit" type="submit" value="Submit">
+	</form>
+</body>
+</html>

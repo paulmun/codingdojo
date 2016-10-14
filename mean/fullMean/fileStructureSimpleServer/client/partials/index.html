@@ -1,0 +1,20 @@
+<h2>Full Mean Friends</h2>
+
+<form>
+	<input type="date" ng-model="birthdayFilter">
+</form>
+
+<table>
+	<tr>
+		<th>Name</th>
+		<th>Show</th>
+		<th>Update</th>
+		<th>Delete</th>
+	</tr>
+	<tr ng-repeat="friend in friends | filter : birthday : friend.birthday">
+		<td><p>{{friend.firstName}} {{friend.lastName}}</p></td>
+		<td><a href="#/show/{{friend._id}}">show</a></td>
+		<td><a href="#/edit/{{friend._id}}">update</a></td>
+		<td><button ng-click="deleteFriend(friend._id)">delete</button></td>
+	</tr>
+</table>
