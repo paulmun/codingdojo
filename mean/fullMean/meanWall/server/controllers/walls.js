@@ -26,6 +26,7 @@ function wallController(){
 			message.save(function(err){
 				if(err){
 					console.log(err);
+					res.json(err);
 				}
 				else{
 					res.json(message);
@@ -34,7 +35,7 @@ function wallController(){
 		});
 	}
 	this.all = function(req,res){
-		Wall.find({}, function(err, messages){
+		Wall.find({}).sort('-_id').then(function(err, messages){
 			if(err){
 				res.json(err);
 			}

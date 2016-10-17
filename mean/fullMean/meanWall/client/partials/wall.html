@@ -5,7 +5,7 @@
 	<textarea ng-model="message" cols="30" rows="10"></textarea>
 	<input type="submit" ng-click="createMessage()" value="Post a message">
 </form>
-<div ng-repeat="message in messages | orderBy:created_at:reverse track by $index ">
+<div ng-repeat="message in messages track by $index ">
 	<h3>{{message.name}} - {{message.created_at}}</h3>
 	<p>{{message.content}}</p>
 	<div ng-repeat="comment in message.comments">

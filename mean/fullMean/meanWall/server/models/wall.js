@@ -1,14 +1,21 @@
 var mongoose = require('mongoose'),
-	Schema = mongoose.Schema;
+	Schema = mongoose.Schema,
+	uniqueValidator = require('mongoose-unique-validator');
 
 var UserSchema = new Schema({
-	name: String,
+	name: {
+		type: String,
+		required: true,
+		uniqueCaseInsensitive: true
+	},
 	created_at: {
 		type: Date, 
 		required: true, 
 		default: new Date
 	}
 });
+
+UserSchema.plugin(uniqueValidator);
 
 var CommentSchema = new Schema({
 		name: String,
@@ -30,7 +37,6 @@ var WallSchema = new Schema({
 		default: new Date
 	}
 });
-
 
 
 var Wall = mongoose.model('Wall', WallSchema),

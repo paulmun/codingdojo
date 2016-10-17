@@ -7,6 +7,7 @@ function userController(){
 		user.save(function(err){
 			if(err){
 				console.log(err);
+				res.json(err);
 			}
 			else{
 				res.json(user);

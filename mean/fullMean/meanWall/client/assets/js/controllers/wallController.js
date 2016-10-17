@@ -19,7 +19,7 @@ app.controller('wallController', ['$scope', '$location', 'userFactory', 'wallFac
 	console.log('wallController');
 	
 	var user;
-	console.log(user);
+	
 	if(!userFactory.check()){
 		$location.url('/');
 	};
