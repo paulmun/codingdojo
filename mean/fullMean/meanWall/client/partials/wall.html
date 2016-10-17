@@ -1,0 +1,21 @@
+<h2>Full MEAN Wall</h2>
+<button ng-click="signout()">Sign Out</button>
+<form>
+	<p>Post a message:</p>
+	<textarea ng-model="message" cols="30" rows="10"></textarea>
+	<input type="submit" ng-click="createMessage()" value="Post a message">
+</form>
+<div ng-repeat="message in messages | orderBy:created_at:reverse track by $index ">
+	<h3>{{message.name}} - {{message.created_at}}</h3>
+	<p>{{message.content}}</p>
+	<div ng-repeat="comment in message.comments">
+		<h3>Comment - {{comment.name}} - {{comment.created_at}}</h3>
+		<p>{{comment.content}}</p>
+	</div>
+	<form>
+		<p>Post a comment:</p>
+		<textarea ng-model="message.new" cols="30" rows="10"></textarea>
+		<input type="submit" ng-click="createComment($index)" value="Post a comment">
+	</form>
+</div>
+</div>
