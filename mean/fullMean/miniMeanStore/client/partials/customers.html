@@ -18,7 +18,7 @@
 	</tr>
 	<tr ng-repeat="user in users">
 		<td>{{user.name}}</td>
-		<td>{{user.created_at}}</td>
+		<td>{{user.created_at | date:"MMM dd yyyy"}}</td>
 		<td><button ng-click="removeUser(user._id)">Remove</button></td>
 	</tr>
 </table>

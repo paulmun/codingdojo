@@ -1,21 +1,26 @@
 app.controller('userController', ['$scope', '$location', 'userFactory', function($scope, $location, userFactory){
-	$scope.users = {};
+
+	userFactory.sync(function(data){
+		$scope.users = data;
+		console.log(data);
+	})
 
 	$scope.addUser = function(){
 		userFactory.create({name: $scope.name}, function(data){
 			console.log(data);
 			$scope.errors = {};
-			if(data.data.errors){
-				$scope.errors = data.data.errors;
+			if(data.errors){
+				$scope.errors = data.errors;
 			}
 			else{
+				$scope.users = data;
 			}
 		});
 	}
 
 	$scope.removeUser = function(id){
 		userFactory.destroy(id, function(data){
-			console.log(data);
+			$scope.users = data;
 		});
 	}
 }]);
