@@ -1,0 +1,24 @@
+<form>
+	<p>Add a new customer</p>
+	<p>Customer Name:</p>
+	{{errors.name.message}}
+	<input type="text" ng-model="name">
+	<input type="submit" ng-click="addUser()" value="Add">
+</form>
+
+<form>
+	<input type="text" ng-model="search">
+</form>
+
+<table>
+	<tr>
+		<th>Customer Name</th>
+		<th>Created Date</th>
+		<th>Actions</th>
+	</tr>
+	<tr ng-repeat="user in users">
+		<td>{{user.name}}</td>
+		<td>{{user.created_at}}</td>
+		<td><button ng-click="removeUser(user._id)">Remove</button></td>
+	</tr>
+</table>
