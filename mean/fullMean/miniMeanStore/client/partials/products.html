@@ -1,0 +1,32 @@
+<div class="productControls">
+	<form>
+		<input type="text" placeholder="search" ng-model="search">
+		<input type="submit" value="Filter" ng-click="filterProducts()">
+	</form>
+
+	<form>
+		<h3>Add a new Product</h3>
+		{{errors.name.message}}
+		<p>Name:</p>
+		<input type="text" placeholder="name..." ng-model="product.name">
+		<p>Image (url):</p>
+		<input type="text" placeholder="http://" ng-model="product.image">
+		<p>Description:</p>
+		<textarea ng-model="product.description" cols="30" rows="10"></textarea>
+		{{errors.quantity.message}}
+		<p>Initial Quantity:</p>
+		<select ng-model="product.quantity">
+			<option ng-repeat="i in range(1,50,1)" value="{{i}}">{{i}}</option>
+		</select>
+		<input type="submit" value="Create" ng-click="addProduct()">
+	</form>
+</div>
+
+<div id="productDisplay">
+	<div class="product" ng-repeat="product in products">
+		<img ng-src="{{product.image}}" alt="{{product.name}}">
+		<b>{{product.name}}</b>
+		<p>({{product.quantity}})</p>
+		<button ng-click="removeProduct(product._id)">Delete</button>
+	</div>
+</div>
