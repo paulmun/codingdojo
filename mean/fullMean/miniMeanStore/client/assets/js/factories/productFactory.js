@@ -3,7 +3,7 @@ app.factory('productFactory', ['$http', function($http){
 	function ProductFactory(){
 
 		this.sync = function(callback){
-			$http.get('/products').then( function(returnData){
+			$http.get('/products').then(function(returnData){
 				callback(returnData.data);
 			});
 		}

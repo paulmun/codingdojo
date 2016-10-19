@@ -1,5 +1,6 @@
 var userController = require('../controllers/users.js'),
-	productController = require('../controllers/products.js')
+	productController = require('../controllers/products.js'),
+	orderController = require('../controllers/orders.js');
 
 
 module.exports = function(app){
@@ -22,6 +23,12 @@ module.exports = function(app){
 	app.delete('/products/:id', function(req, res){
 		productController.destroy(req,res);	
 	});
+	app.get('/orders', function(req, res){
+		orderController.all(req, res);
+	});
+	app.post('/orders', function(req, res){
+		orderController.create(req, res);
+	})
 
 }
 

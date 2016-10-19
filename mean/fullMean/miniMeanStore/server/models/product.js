@@ -2,6 +2,7 @@ var mongoose = require('mongoose'),
 	Schema = mongoose.Schema,
 	uniqueValidator = require('mongoose-unique-validator');
 
+
 var ProductSchema = new Schema({
 	name: {
 		type: String,
