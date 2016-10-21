@@ -1,0 +1,15 @@
+<a href="#/">Home</a>
+<button ng-click="logout()">Logout</button>
+
+<h2>New Question</h2>
+
+<form>
+	<p>Question </p>
+	{{errors.question.message}}
+	<textarea ng-model="question.question" cols="30" rows="10"></textarea>
+	<p>Description (optional)</p>
+	{{errors.description.message}}
+	<textarea ng-model="question.description" cols="30" rows="10"></textarea>
+	<button><a href="#/">Cancel</a></button>
+	<input type="submit" value="submit" ng-click="addQuestion()">
+</form>

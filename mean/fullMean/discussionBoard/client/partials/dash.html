@@ -1,0 +1,40 @@
+<h2>Welcome, {{user.name}}</h2>
+<button ng-click="logout">Logout</button>
+<form>
+	<input type="text" ng-model="search">
+	<input type="submit" value="Search" ng-click="searchClick">
+</form>
+
+<table>
+	<tr>
+		<th>Category</th>
+		<th>Topic</th>
+		<th>User Name</th>
+		<th>Posts</th>
+	</tr>
+	<tr ng-repeat="topic in topics">
+		<td>{{topic.category}}</td>
+		<td><a href="" ng-click="show(topic._id)">{{topic.title}}</a></td>
+		<td><a href="" ng-click="showUser(topic.user._id)">{{topic.user.name}}</a></td>
+		<td>{{topic.posts.length}}</td>
+	</tr>
+</table>
+
+<form>
+	<h2>Add a new Topic</h2>
+	<p>Topic:</p>
+	{{errors.name.message}}
+	<input type="text" ng-model="topic.title">
+	<p>Description:</p>
+	<textarea ng-model="topic.description" cols="30" rows="10"></textarea>
+	<p>Category:</p>
+	{{errors.category.message}}
+	<select ng-model="topic.category">
+		<option value="Ruby on Rails">Ruby on Rails</option>
+		<option value="MySQL">MySQL</option>
+		<option value="UX">UX</option>
+		<option value="Web Development">Web Development</option>
+		<option value="Java">Java</option>
+	</select>
+	<input type="submit" ng-click="addTopic()">
+</form>

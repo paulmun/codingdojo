@@ -1,0 +1,25 @@
+<p><a href="" ng-click="showUser(topic.user._id)">{{topic.user.name}}</a> posted a topic:</p>
+<b>{{topic.title}}</b>
+<p>Description: {{topic.description}}</p>
+
+<b>Post your answer here...</b>
+<form>
+	<textarea ng-model="post.post" cols="30" rows="10"></textarea>
+	<input type="submit" value="Post" ng-click="addPost()">
+</form>
+
+<div ng ng-repeat="post in topic.posts | orderBy:upvote:true">
+	<p><a href="" ng-click="showUser(post.user._id)">{{post.user.name}}:</a> {{post.post}}</p>
+	<button ng-click="upVote(post._id)">Upvote</button>
+	{{post.upVote.length}}
+	<button ng-click="downVote(post._id)">Downvote</button>
+	{{post.downVote.length}}
+	<div ng-repeat="comment in post.comments track by $index">
+		<p><a href="" ng-click="showUser(comment.user._id)">{{comment.user.name}}:</a> {{comment.comment}}</p>
+	</div>
+	<form>
+		<textarea ng-model="side[$index]" cols="30" rows="10"></textarea>
+		<input type="submit" value="Comment" ng-click="addComment($index, post._id)">
+	</form>
+	
+</div>

@@ -1,0 +1,22 @@
+<h2>Hi {{user.name}}</h2>
+<button ng-click="logout()">Logout</button>
+<a href="#/new_question">Add a Question</a>
+
+<form>
+<p>Search</p>
+<input type="text" ng-model="search">
+</form>
+
+<table>
+	<tr>
+		<th>Question</th>
+		<th>Answers</th>
+		<th col-span="2">Action</th>
+	</tr>
+	<tr ng-repeat="question in questions">
+		<td>{{question.question}}</td>
+		<td>{{question.answers.length}}</td>
+		<td><button ng-click="show(question._id)">Show</button></td>
+		<td><a href="#/question/{{question._id}}/new_answer">Answer</a></td>
+	</tr>
+</table>

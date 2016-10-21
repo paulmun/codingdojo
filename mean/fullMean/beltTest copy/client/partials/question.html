@@ -1,0 +1,13 @@
+<a href="#/">Home</a> | <button ng-click="answerQuestion()">Answer this Question</button>
+<button ng-click="logout()">Logout</button>
+
+<h2>{{question.question}}</h2>
+<p>{{question.description}}</p>
+
+<div ng-repeat="answer in question.answers">
+	<p>{{answer.user.name}}:</p>
+	<b>{{answer.answer}}</b>
+	<p>{{answer.details}}</p>
+	<p>{{answer.likes.length}} likes</p>
+	<button ng-click="likeAnswer(answer.user._id)"></button>
+</div>

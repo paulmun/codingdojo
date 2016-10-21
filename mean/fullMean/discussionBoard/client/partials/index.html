@@ -1,0 +1,8 @@
+<p>Hello!</p>
+<p>Please enter your name to join and share your ideas</p>
+<form>
+	<p>{{errors.name.message}}</p>
+	<p>Name:</p>
+	<input type="text" ng-model="user.name">
+	<input type="submit" value="Enter" ng-click="addUser()">
+</form>
