@@ -37,6 +37,8 @@ app.factory('topicFactory', ['$http', function($http){
 			callback(savedTopic);
 		}
 
+		
+
 	}
 	return new TopicFactory();
 }]);

@@ -52,12 +52,17 @@ app.factory('userFactory', ['$http', '$cookies', function($http, $cookies){
 				if(sessionObj){
 					return true;
 				}
+				else if($cookies.get('sessionObj')){
+					sessionObj = $cookies.get('sessionObj');
+					return true;
+				}
 				else{
 					user = {};
 					return false;
 				}
 			},
 			clear: function(){
+				$cookies.remove('sessionObj');
 				sessionObj = '';
 				user = {};
 			}

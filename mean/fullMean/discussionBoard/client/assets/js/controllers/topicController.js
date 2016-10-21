@@ -77,7 +77,7 @@ app.controller('topicController', ['$scope', '$location', 'userFactory', 'topicF
 	$scope.logout = function(){
 		userFactory.cookieJar.clear();
 		if(!userFactory.cookieJar.check()){
-		$location.url('/');
+			$location.url('/');
 		}
 	}
 
